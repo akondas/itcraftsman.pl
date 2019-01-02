@@ -1,12 +1,27 @@
-<svg width="40px" height="45px" viewBox="0 0 40 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="04-docs-start" transform="translate(-170.000000, -28.000000)">
-            <g id="Group" transform="translate(170.000000, 28.000000)">
-                <polygon id="Rectangle-3-Copy" fill="#338CD6" points="20 0 40 10 40 35 20 45 0 35 0 10"></polygon>
-                <polygon id="Rectangle-3-Copy-2" fill="#1C3E5A" points="20 20 20 45 0 35 0 10"></polygon>
-                <polygon id="Rectangle-3" fill="#B9DAF5" points="20 0 40 10 20 20 0 10"></polygon>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="480.000000pt" height="480.000000pt" viewBox="0 0 480.000000 480.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,480.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M1847 4465 l-167 -335 0 -510 0 -510 430 0 430 0 0 845 0 845 -263 0
+-262 0 -168 -335z"/>
+<path d="M840 3955 l0 -285 285 0 284 0 3 268 c2 147 7 275 12 285 8 16 -9 17
+-288 17 l-296 0 0 -285z"/>
+<path d="M2810 3955 l0 -285 995 0 995 0 0 285 0 285 -995 0 -995 0 0 -285z"/>
+<path d="M0 3535 l0 -145 285 0 285 0 0 145 0 145 -285 0 -285 0 0 -145z"/>
+<path d="M347 2959 l-277 -139 65 -130 c36 -72 67 -130 70 -130 10 0 565 280
+565 285 0 16 -126 255 -135 254 -5 0 -135 -63 -288 -140z"/>
+<path d="M1120 1835 l0 -715 1291 2 1290 3 24 59 c32 79 82 151 160 235 76 80
+124 106 293 156 104 30 505 132 590 150 l32 7 0 409 0 409 -1840 0 -1840 0 0
+-715z"/>
+<path d="M0 2147 c0 -226 60 -378 210 -528 72 -73 101 -94 180 -132 115 -56
+214 -77 355 -77 l105 0 0 430 0 430 -425 0 -425 0 0 -123z"/>
+<path d="M1190 846 c0 -2 9 -23 20 -47 11 -24 20 -66 20 -93 0 -98 -13 -120
+-164 -273 l-140 -143 -183 0 -183 0 0 -145 0 -145 1980 0 1980 0 0 145 0 145
+-183 0 -184 0 -185 187 c-163 166 -189 197 -220 263 -20 41 -39 83 -42 93 -5
+16 -74 17 -1261 17 -690 0 -1255 -2 -1255 -4z"/>
+</g>
 </svg>
