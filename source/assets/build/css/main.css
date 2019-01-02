@@ -821,18 +821,6 @@ pre code {
   clear: both;
 }
 
-@media (min-width: 768px) {
-  #mc_embed_signup {
-    width: 66.66667%;
-  }
-}
-
-@media (min-width: 992px) {
-  #mc_embed_signup {
-    width: 50%;
-  }
-}
-
 #mc_embed_signup_scroll > h2:first-of-type {
   display: block;
   margin-bottom: 1.5rem;
@@ -862,7 +850,6 @@ pre code {
     border-bottom-left-radius: .25rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    width: 75%;
   }
 }
 
@@ -874,8 +861,6 @@ pre code {
   background-color: #3490dc;
   cursor: pointer;
   line-height: 1.6;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   border-top-right-radius: .25rem;
@@ -884,13 +869,11 @@ pre code {
   width: 33.33333%;
 }
 
-#mc-embedded-subscribe:hover {
-  background-color: #0174d4;
-}
+@apply .text-center
 
-@media (min-width: 768px) {
+    &:hover {
   #mc-embedded-subscribe {
-    width: 25%;
+    background-color: #0174d4;
   }
 }
 
