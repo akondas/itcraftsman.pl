@@ -13,6 +13,6 @@
  *     // Your code here
  * });
  */
-
+setlocale(LC_TIME, 'pl_PL.UTF-8');
 $events->afterBuild(App\Listeners\GenerateSitemap::class);
 $events->afterBuild(App\Listeners\GenerateIndex::class);
