@@ -1,1 +1,9 @@
 // Your custom blog styles here
+p {
+  code {
+    @apply .text-red;
+    @apply .bg-grey-light;
+    @apply .px-2;
+    @apply .py-1;
+  }
+}

@@ -858,6 +858,15 @@ code {
   }
 }
 
+p code {
+  color: #e3342f;
+  background-color: #e2e8ee;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;

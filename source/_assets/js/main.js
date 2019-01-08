@@ -15,6 +15,9 @@ hljs.registerLanguage('markdown', require('highlight.js/lib/languages/markdown')
 hljs.registerLanguage('php', require('highlight.js/lib/languages/php'));
 hljs.registerLanguage('scss', require('highlight.js/lib/languages/scss'));
 hljs.registerLanguage('yaml', require('highlight.js/lib/languages/yaml'));
+hljs.registerLanguage('cs', require('highlight.js/lib/languages/cs'));
+hljs.registerLanguage('xml', require('highlight.js/lib/languages/xml'));
+hljs.registerLanguage('sql', require('highlight.js/lib/languages/sql'));
 
 Vue.config.productionTip = false;
 
