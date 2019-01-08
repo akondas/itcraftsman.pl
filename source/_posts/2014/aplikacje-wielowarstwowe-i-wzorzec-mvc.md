@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2014-09-21 12:46:34+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/aplikacje-wielowarstwowe-i-wzorzec-mvc/
+link: https://itcraftsman.pl/aplikacje-wielowarstwowe-i-wzorzec-mvc/
 slug: aplikacje-wielowarstwowe-i-wzorzec-mvc
 title: 'ASP: Aplikacje wielowarstwowe i wzorzec MVC'
 wordpress_id: 460

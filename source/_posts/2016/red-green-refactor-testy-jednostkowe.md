@@ -21,7 +21,7 @@ tags:
 
 Praktyczny przykład pisania testów jednostkowych z wykorzystaniem metody "Red Green Refactor".<!-- more -->
 
-O samych testach jednostkowych (oraz TDD) pisałem już wcześniej: [TDD w PHP: Wprowadzenie](http://itcraftsman.pl/tdd-w-php-wprowadzenie-do-test-driven-development/) i [TDD w PHP: testy jednostkowe z PHPUnit - krok po kroku](http://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/)). Dzisiaj krótki przykład praktycznego zastosowania testów jednostkowych oraz metody "Red Green Refactor". Krótki opis na czym ona polega:
+O samych testach jednostkowych (oraz TDD) pisałem już wcześniej: [TDD w PHP: Wprowadzenie](https://itcraftsman.pl/tdd-w-php-wprowadzenie-do-test-driven-development/) i [TDD w PHP: testy jednostkowe z PHPUnit - krok po kroku](https://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/)). Dzisiaj krótki przykład praktycznego zastosowania testów jednostkowych oraz metody "Red Green Refactor". Krótki opis na czym ona polega:
  	
   1. **Red** - piszemy testy, które nie przechodzą
   2. **Green** - piszemy minimalny kod, który przechodzi testy

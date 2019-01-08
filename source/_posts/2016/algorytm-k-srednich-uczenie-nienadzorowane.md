@@ -22,7 +22,7 @@ tags:
 - systemy uczące się
 ---
 
-Algorytm k-średnich (_z ang. k-means_) inaczej zwany również algorytmem centroidów, służy do podziału danych wejściowych na **z góry założoną** liczbę klas. Jest to jeden z algorytmów stosowany w klasteryzacji (grupowaniu) i jest częścią uczenia nienadzorowanego w [Machine Learning](http://itcraftsman.pl/wstep-do-machine-learning/).<!-- more -->
+Algorytm k-średnich (_z ang. k-means_) inaczej zwany również algorytmem centroidów, służy do podziału danych wejściowych na **z góry założoną** liczbę klas. Jest to jeden z algorytmów stosowany w klasteryzacji (grupowaniu) i jest częścią uczenia nienadzorowanego w [Machine Learning](https://itcraftsman.pl/wstep-do-machine-learning/).<!-- more -->
 
 Aby dobrze zrozumieć zasady działania tego algorytmu musimy wprowadzić jedno nowe pojęcie: "**centroid**". Centroid jest to reprezentant danego skupienia lub inaczej środek danej grupy.
 
@@ -111,4 +111,4 @@ Podział zbioru na 4 mało intuicyjne grupy.
   * działa dobrze tylko dla "sferycznych" skupisk o jednorodnej gęstości
 
 
-Do wizualizacji wszystkich przykładów wykorzystałem narzędzie autorstwa Naftali Harris ([@naftaliharris](https://twitter.com/naftaliharris)) dostępny na stronie: [http://www.naftaliharris.com/blog/visualizing-k-means-clustering/](http://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+Do wizualizacji wszystkich przykładów wykorzystałem narzędzie autorstwa Naftali Harris ([@naftaliharris](https://twitter.com/naftaliharris)) dostępny na stronie: [https://www.naftaliharris.com/blog/visualizing-k-means-clustering/](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)

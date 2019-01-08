@@ -21,7 +21,7 @@ Czym są migracje bazy danych ? Krótki przewodnik po tym jak skutecznie z nich 
 
 <!-- more -->
 
-W poprzednim wpisie ([Tworzenie i modyfikacja ](http://itcraftsman.pl/tworzenie-i-modyfikacja-bazy-danych-z-poziomu-kodu-php-laravel-schema-builder/)...) przedstawiłem Wam jak zarządzać strukturą bazy danych z poziomu kodu PHP. Dzisiaj przedstawię praktyczny sposób wykorzystania tego tematu, na bazie frameworka Laravel. Najpierw musimy odpowiedzieć sobie na następujące pytanie:
+W poprzednim wpisie ([Tworzenie i modyfikacja ](https://itcraftsman.pl/tworzenie-i-modyfikacja-bazy-danych-z-poziomu-kodu-php-laravel-schema-builder/)...) przedstawiłem Wam jak zarządzać strukturą bazy danych z poziomu kodu PHP. Dzisiaj przedstawię praktyczny sposób wykorzystania tego tematu, na bazie frameworka Laravel. Najpierw musimy odpowiedzieć sobie na następujące pytanie:
 
 **Czym są migracje ?**
 
@@ -94,7 +94,7 @@ public function up() {
 }
 ```
 
-Powyższy kod utworzy tabelę _products_ wraz z kilkoma kolumnami. Jeżeli chcesz dowiedzieć się więcej jak tworzyć tabele i kolumny w ten sposób to zapraszam do [poprzedniego wpisu](http://itcraftsman.pl/tworzenie-i-modyfikacja-bazy-danych-z-poziomu-kodu-php-laravel-schema-builder/).
+Powyższy kod utworzy tabelę _products_ wraz z kilkoma kolumnami. Jeżeli chcesz dowiedzieć się więcej jak tworzyć tabele i kolumny w ten sposób to zapraszam do [poprzedniego wpisu](https://itcraftsman.pl/tworzenie-i-modyfikacja-bazy-danych-z-poziomu-kodu-php-laravel-schema-builder/).
 
 Teraz aby nasza migracja była kompletna musimy uzupełnić metodę _down()_:
 

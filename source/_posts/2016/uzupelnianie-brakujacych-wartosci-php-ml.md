@@ -18,7 +18,7 @@ tags:
 
 Z różnych powodów, wiele zestawów danych ze świata rzeczywistego, zawiera brakujących wartości, często oznaczone jako puste pola, nulle lub inne symbole.<!-- more -->
 
-W takich celach ([PHP-ML](http://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)) zaimplementowałem klasę **_Imputer_**, która służy do uzupełniania brakujących wartości.
+W takich celach ([PHP-ML](https://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)) zaimplementowałem klasę **_Imputer_**, która służy do uzupełniania brakujących wartości.
 
 **Parametry konstruktora**
 

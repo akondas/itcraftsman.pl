@@ -68,7 +68,7 @@ Im dłuższy staje się warunek tym trudniej go zrozumieć. Co daje dekompozycja
 
 
 <div class="shadow-md p-4 bg-yellow-lighter">
-Jeżeli masz trudności z nazywaniem nowych metod, przeczytaj wpis: <a href="http://itcraftsman.pl/dobre-praktyki-tworzenia-nazw/">Dobre praktyki tworzenia nazw</a>
+Jeżeli masz trudności z nazywaniem nowych metod, przeczytaj wpis: <a href="https://itcraftsman.pl/dobre-praktyki-tworzenia-nazw/">Dobre praktyki tworzenia nazw</a>
 </div>
 
 ## Konsolidacja wyrażeń warunkowych
@@ -327,7 +327,7 @@ function getExpenseLimit()
 
 **Uwaga**
 
-W php funkcja _assert_ działa inaczej dla wersji PHP 7. Warto zaznajomić się z dokumentacją: [http://php.net/assert](http://php.net/assert)
+W php funkcja _assert_ działa inaczej dla wersji PHP 7. Warto zaznajomić się z dokumentacją: [https://php.net/assert](https://php.net/assert)
 
 **Dlaczego refaktoryzować?**
 
@@ -395,4 +395,4 @@ Ta technika zasługuje na osobny wpis, dlatego w dzisiejszym artykule pozostawi�
 
 Przedstawione techniki dążą do poprawy czytelności kodu, a nie jego wydajności. Pamiętajcie, że kod będziecie czytać ponad 100 razy częściej niż go pisać.
 
-Więcej technik znajdziecie pod adresem: [http://refactoring.com/catalog/](http://refactoring.com/catalog/)
+Więcej technik znajdziecie pod adresem: [https://refactoring.com/catalog/](https://refactoring.com/catalog/)

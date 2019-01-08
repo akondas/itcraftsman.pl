@@ -20,7 +20,7 @@ tags:
 
 > W programowaniu istnieją dwa bardzo trudne problemy: unieważnianie cache oraz nazywanie rzeczy. 
 
-To słynny [cytat Phila Karltona](http://martinfowler.com/bliki/TwoHardThings.html). W tym wpisie chciałbym skupić nad problemem tworzenia nazw używanych w kodzie i przedstawić zbiór najlepszych praktyk. Dodatkowo na końcu zaproponuję kilka pomysłów na polepszanie swoich zdolności językowych<!-- more -->
+To słynny [cytat Phila Karltona](https://martinfowler.com/bliki/TwoHardThings.html). W tym wpisie chciałbym skupić nad problemem tworzenia nazw używanych w kodzie i przedstawić zbiór najlepszych praktyk. Dodatkowo na końcu zaproponuję kilka pomysłów na polepszanie swoich zdolności językowych<!-- more -->
 
 Przykłady użyte w poniższym wpisie napisane są w języku **PHP**, ale opisane techniki można z powodzeniem stosować w każdym dostępnym języku, który to umożliwia.
 Na wstępie warto jeszcze wspomnieć, że wpis jest dość długi, dlatego zalecam przygotowanie kawy lub innego ulubionego napoju. Wygodne krzesło lub komfortowa pozycja też będzie mile widziana.
@@ -377,7 +377,7 @@ Dlaczego warto czytać i stosować porady od zawodowych pisarzy, skoro z pozoru,
   * Ich porady są lepiej napisane i bardziej zabawne
 
 
-Wybrałem kilka cytatów, ale pod [tym linkiem](http://www.goodreads.com/quotes/tag/writing) możecie znaleźć ich całą masę.
+Wybrałem kilka cytatów, ale pod [tym linkiem](https://www.goodreads.com/quotes/tag/writing) możecie znaleźć ich całą masę.
 
 **Stephen King **na temat programowania w zespole:
 

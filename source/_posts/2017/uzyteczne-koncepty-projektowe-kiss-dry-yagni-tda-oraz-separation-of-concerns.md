@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2017-10-14 11:59:50+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/uzyteczne-koncepty-projektowe-kiss-dry-yagni-tda-oraz-separation-of-concerns/
+link: https://itcraftsman.pl/uzyteczne-koncepty-projektowe-kiss-dry-yagni-tda-oraz-separation-of-concerns/
 slug: uzyteczne-koncepty-projektowe-kiss-dry-yagni-tda-oraz-separation-of-concerns
 title: Użyteczne koncepty projektowe. KISS, DRY , YAGNI, TDA oraz Separation of Concerns.
 wordpress_id: 1787

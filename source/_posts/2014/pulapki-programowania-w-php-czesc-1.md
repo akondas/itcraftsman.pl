@@ -20,7 +20,7 @@ Celem tego wpisu jest pokazanie złych praktyk (złego projektu) samego kodu PHP
 
 	
   1. Funkcja _json_decode_ zamienia zapisany jako string obiekt JSON na strukturę obsługiwaną przez PHP. Zwraca ona null jeżeli przekazany string jest niepoprawny. Nawet w przypadku gdy przekazany string jest faktycznym (prawidłowym i dozwolonym zapisem JSON) nullem. Czyli, jeżeli zdecydujesz się na jej używanie to po każdym jej wywołaniu należy wywołać _json_last_error_ i sprawdzić czy proces parsowania przebiegł prawidłowo. W innym przypadku nigdy nie będziesz mieć pewności, że proces konwersji przebiegł bez problemu. 	
-  2. Operator porównania "==". Jego znaczenie nie jest takie oczywiste, bo_ "string" == TRUE_ i _"string"==0_ ale w drugą stronę uwaga ... _TRUE != 0_. Inne ciekawe przypadki to _123 == "123string"_ ale oczywiście .. _"123" != "123string"_. Ten ostatni przykład w skrajnych przypadkach może spowodować, że twój hash hasła nie zawsze będzie bezpieczny ([przykład](http://phpsadness.com/sad/47)). Kolejne ciekawe przypadki to: _"3" == " 3"_, _"2.7" == "2.70"_, oraz _"123" == "0123"_.  Inaczej już przy  _123 != 0123_, ponieważ 0123 jest zapisem w notacji ósemkowej.
+  2. Operator porównania "==". Jego znaczenie nie jest takie oczywiste, bo_ "string" == TRUE_ i _"string"==0_ ale w drugą stronę uwaga ... _TRUE != 0_. Inne ciekawe przypadki to _123 == "123string"_ ale oczywiście .. _"123" != "123string"_. Ten ostatni przykład w skrajnych przypadkach może spowodować, że twój hash hasła nie zawsze będzie bezpieczny ([przykład](https://phpsadness.com/sad/47)). Kolejne ciekawe przypadki to: _"3" == " 3"_, _"2.7" == "2.70"_, oraz _"123" == "0123"_.  Inaczej już przy  _123 != 0123_, ponieważ 0123 jest zapisem w notacji ósemkowej.
   3. Obsługa błędów (choć to jest temat na osobny wpis). W PHP istnieje niespójne podejście do tego co jest dozwolone a co nie. Przykłady błędów które nie powodują przerwania skryptu (zgłaszają jedynie istnienie problemu):
 
     1. użycie niezdefiniowanej stałej (notice)	
@@ -35,7 +35,7 @@ Celem tego wpisu jest pokazanie złych praktyk (złego projektu) samego kodu PHP
     4. użycie stałej jako nazwy funkcji, zmiennej lub klasy (parse error)
 
 
-  4. Niektóre wbudowane funkcje konfliktują z funkcjami zwracającymi referencję. Przykład jest lekko skomplikowany ale zachęcam do przeczytania[ tego wpisu](http://www.phpwtf.org/php-function-calls-returning-references). 
+  4. Niektóre wbudowane funkcje konfliktują z funkcjami zwracającymi referencję. Przykład jest lekko skomplikowany ale zachęcam do przeczytania[ tego wpisu](https://www.phpwtf.org/php-function-calls-returning-references). 
 
 	
   5. Wyjątki wyrzucone w metodzie __autoload lub destruktorze powodują błędy fatal error.  Błąd ten został dla destruktora poprawiony w wersji 5.3.6.  W wersji tej poprawiono również inny ciekawy błąd. Weźmy oto taką konstrukcją:

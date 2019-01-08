@@ -79,10 +79,10 @@ Numbered list:
   2. oranges
   3. pears
 
-A [link](http://example.com).
+A [link](https://example.com).
 ```
 
-Powyższy tekst po przetworzeniu (dowolnym narzędziem, np: [http://dillinger.io/](http://dillinger.io/)) zostanie skonwertowany to następującego HTMLa:
+Powyższy tekst po przetworzeniu (dowolnym narzędziem, np: [https://dillinger.io/](https://dillinger.io/)) zostanie skonwertowany to następującego HTMLa:
 
 ```
 <h1>Heading</h1>
@@ -115,7 +115,7 @@ line break.</p>
 <li>pears</li>
 </ol>
 
-<p>A <a href="http://example.com">link</a>.</p>
+<p>A <a href="https://example.com">link</a>.</p>
 ```
 
 ## Markdown Cheatsheet

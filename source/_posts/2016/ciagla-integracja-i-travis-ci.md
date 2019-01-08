@@ -33,7 +33,7 @@ Sama kompilacja nie jest wystarczająca. Najlepszym sposobem na zapewnienie sob
 ## Travis CI
 
 
-**[Travis CI](http://travis-ci.com)** to serwisu typu FOSS (_free and open-source software_), który pozwala na budowanie, testowanie i wdrażanie (_deploy_) projektów hostowanych na GitHubie. Jest całkowicie bezpłatny dla repozytoriów publicznych. Dla prywatnych repo istnieje opcja wykupienia abonamentu.
+**[Travis CI](https://travis-ci.com)** to serwisu typu FOSS (_free and open-source software_), który pozwala na budowanie, testowanie i wdrażanie (_deploy_) projektów hostowanych na GitHubie. Jest całkowicie bezpłatny dla repozytoriów publicznych. Dla prywatnych repo istnieje opcja wykupienia abonamentu.
 
 Funkcjonalność Travisa nie ogranicza się tylko do języków skryptowych. W zasadzie istnieje możliwość konfiguracji projektów w większości popularnych językach programowania.
 

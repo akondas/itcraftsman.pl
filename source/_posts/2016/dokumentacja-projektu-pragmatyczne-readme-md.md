@@ -59,7 +59,7 @@ Na koniec być może najmniejsza zachęta (lub przypuszczalnie odwrotnie ?). Pi
 ## README.md na start
 
 
-Plik README.md to idealne miejscu startu tworzenie dokumentacji (przeczytaj [dlaczego format Markdown](http://itcraftsman.pl/markdown-tworzenie-dokumentacji-projektu/)). Większość systemów hostujących kod źródłowy (np. GitHub czy BitBucket) wyrenderuje plik w formacie Markdown jako stronę główną w HTML. Najczęściej, będzie to również pierwsze miejsce kontaktu innych programistów z Twoim kodem. Wypada więc poświęcić trochę czasu i stworzyć solidne podwaliny. Niektórzy poszli nawet dalej i stworzyli nową technikę zwaną: Readme Driven Development :).
+Plik README.md to idealne miejscu startu tworzenie dokumentacji (przeczytaj [dlaczego format Markdown](https://itcraftsman.pl/markdown-tworzenie-dokumentacji-projektu/)). Większość systemów hostujących kod źródłowy (np. GitHub czy BitBucket) wyrenderuje plik w formacie Markdown jako stronę główną w HTML. Najczęściej, będzie to również pierwsze miejsce kontaktu innych programistów z Twoim kodem. Wypada więc poświęcić trochę czasu i stworzyć solidne podwaliny. Niektórzy poszli nawet dalej i stworzyli nową technikę zwaną: Readme Driven Development :).
 
 Główni odbiorcy pliku README.md to najczęściej:
 
@@ -88,7 +88,7 @@ Przykład: [https://github.com/deployphp/deployer](https://github.com/deployphp
 
 **Instrukcja instalacji**
 
-Jak w prosty i szybki sposób zainstalować bibliotekę. Najczęściej będzie to jakiś menedżer pakietów (np. w [PHP mamy Composera](http://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/)). Bardziej złożone sposoby instalacji trzeba umieścić w kompleksowej dokumentacji projektu, ale o tym będzie kolejny wpis.
+Jak w prosty i szybki sposób zainstalować bibliotekę. Najczęściej będzie to jakiś menedżer pakietów (np. w [PHP mamy Composera](https://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/)). Bardziej złożone sposoby instalacji trzeba umieścić w kompleksowej dokumentacji projektu, ale o tym będzie kolejny wpis.
 
 Przykład: [https://github.com/sebastianbergmann/phpunit](https://github.com/sebastianbergmann/phpunit)
 
@@ -100,7 +100,7 @@ Przykład: [https://github.com/pattern-lab/patternlab-php](https://github.com/p
 
 **Licencja i autor**
 
-Nie zapomnij również poinformować innych na jakiej licencji udostępniasz Twój kodu. Nie wymyślaj niczego nowego, zamiast tego skorzystaj z gotowych rozwiązań (a jak nie wiesz jaką licencję wybrać to zerknij na: [http://choosealicense.com/](http://choosealicense.com/)). Na koniec jak się nie wstydzisz możesz wspomnieć kto jest autorem (z czasem może być ich więcej).
+Nie zapomnij również poinformować innych na jakiej licencji udostępniasz Twój kodu. Nie wymyślaj niczego nowego, zamiast tego skorzystaj z gotowych rozwiązań (a jak nie wiesz jaką licencję wybrać to zerknij na: [https://choosealicense.com/](https://choosealicense.com/)). Na koniec jak się nie wstydzisz możesz wspomnieć kto jest autorem (z czasem może być ich więcej).
 
 Przykład: [https://github.com/Intervention/image](https://github.com/Intervention/image)
 
@@ -123,7 +123,7 @@ Przykład: [https://github.com/Intervention/image](https://github.com/Intervent
     
     ## Documentation
     
-    To find out how to use this library follow [Documentation](http://link-to-documentation).
+    To find out how to use this library follow [Documentation](https://link-to-documentation).
     
     ## Installation
     

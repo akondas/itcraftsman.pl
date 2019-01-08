@@ -44,7 +44,7 @@ Na samym wstępie chciałbym podziękować autorom za poświęcony czas i przes
 
 **Historia**
 
-Koncepcja Ouzo narodziła się gdzieś na początku 2013 roku w firmie Thulium ([thulium.pl](http://thulium.pl)). Od wielu lat firma dostarczała autorskie oprogramowanie call center i przez ten czas, jak to zazwyczaj bywa, dług techniczny projektu powiększał się niczym dziura budżetowa w Polsce. Jednak w przeciwieństwie do naszych polityków, my postanowiliśmy zacząć ten dług spłacać.
+Koncepcja Ouzo narodziła się gdzieś na początku 2013 roku w firmie Thulium ([thulium.pl](https://thulium.pl)). Od wielu lat firma dostarczała autorskie oprogramowanie call center i przez ten czas, jak to zazwyczaj bywa, dług techniczny projektu powiększał się niczym dziura budżetowa w Polsce. Jednak w przeciwieństwie do naszych polityków, my postanowiliśmy zacząć ten dług spłacać.
 
 Z wielu różnych przyczyn, w które nie warto się tu zagłębiać, podjęliśmy decyzję żeby zmiany w kodzie oprzeć na własnym frameworku (jak to dumnie brzmi!). Stworzyliśmy framework webowy oparty o MVC, własny ORM i masę narzędzi ułatwiających pisanie czystego kodu i testów. Czerpaliśmy z naszych doświadczeń w innych technologiach (Google Guava, Ruby on Rails, Mockito, FEST-Assert itd.).
 
@@ -68,7 +68,7 @@ Query builder - [https://github.com/letsdrink/ouzo/wiki/ORM#query-builder](https
 
 **O projekcie**
 
-Strona projektu: [http://ouzoframework.org](http://ouzoframework.org)  
+Strona projektu: [https://ouzoframework.org](https://ouzoframework.org)  
 Najnowsza stabilna wersja: 1.2  
 **Licencja: MIT**  
 Github (źródła): [https://github.com/letsdrink/ouzo](https://github.com/letsdrink/ouzo)  
@@ -120,7 +120,7 @@ Chciałbym jeszcze zacytować Wam zabawne zdanie od samego autora (trzeba przyz
 
 *Opis przygotował dla Was Paweł Makowski*
 
-(w sieci można znaleźć jeszcze jeden artykuł na łamach webmastach: [http://webmastah.pl/spawn-framework-czyli-narzedzie-dla-najmniejszych/](http://webmastah.pl/spawn-framework-czyli-narzedzie-dla-najmniejszych/))
+(w sieci można znaleźć jeszcze jeden artykuł na łamach webmastach: [https://webmastah.pl/spawn-framework-czyli-narzedzie-dla-najmniejszych/](https://webmastah.pl/spawn-framework-czyli-narzedzie-dla-najmniejszych/))
 
 **Historia**
 
@@ -128,11 +128,11 @@ Spawn Framework powstał w maju 2010 roku. Spawn jest projektem przeznaczonym dl
 
 **Plany na przyszłość**
 
-Jeśli chodzi o przyszłość to obecnie próbuję znaleźć czas na rozwój generatorów crud, widgetów zapewniających szybkie generowanie poszczególnych części widoku (menu/datagrid/breadcrumbs itd) oraz lepszą integrację z Bootstrap 3 ([http://getbootstrap.com/](http://getbootstrap.com/)).
+Jeśli chodzi o przyszłość to obecnie próbuję znaleźć czas na rozwój generatorów crud, widgetów zapewniających szybkie generowanie poszczególnych części widoku (menu/datagrid/breadcrumbs itd) oraz lepszą integrację z Bootstrap 3 ([https://getbootstrap.com/](https://getbootstrap.com/)).
 
 **O projekcie:**
 
-Strona projektu: [http://spawnframework.com/](http://spawnframework.com/)  
+Strona projektu: [https://spawnframework.com/](https://spawnframework.com/)  
 Najnowsza stabilna wersja: 2.7.4  
 **Licencja: New BSD License**  
 Github (źródła): [https://github.com/Spawnm/Spawn-Framework](https://github.com/Spawnm/Spawn-Framework)
@@ -161,18 +161,18 @@ Docelowo Hanariu ma być narzędziem mogącym przez swoje możliwości doskonale
 
 **O projekcie:**
 
-Strona projektu: [http://hanariu.pl/](http://hanariu.pl/)  
+Strona projektu: [https://hanariu.pl/](https://hanariu.pl/)  
 Github (źródła): [https://github.com/Hanariu/hanariu](https://github.com/Hanariu/hanariu)
 
 ## Splot Framework
 
 [![Splot Framework](/assets/img/posts/2014/splot-framework.jpg)](/assets/img/posts/2014/splot-framework.jpg) Splot Framework
 
-*Opis przygotował dla Was Michał Dudek ([michaldudek.pl](http://michaldudek.pl))*
+*Opis przygotował dla Was Michał Dudek ([michaldudek.pl](https://michaldudek.pl))*
 
 **Historia**
 
-Splot Framework powstał przy okazji tworzenia web-aplikacji Focusson ([focusson.pl](http://www.focusson.pl)), do którego chciałem zastosować najnowsze rozwiązania i podejścia w ekosystemie PHP. Wcześniej zauroczyłem się Symfony2, ale po dłuższej zabawie i codziennej z nim walki w pracy stwierdziłem, że przydałoby się jednak coś co nie jest "overengineered", a jednocześnie implementuje i narzuca wszystkie dobre patterny typu m.in. Dependency Injection czy Event Dispatcher.
+Splot Framework powstał przy okazji tworzenia web-aplikacji Focusson ([focusson.pl](https://www.focusson.pl)), do którego chciałem zastosować najnowsze rozwiązania i podejścia w ekosystemie PHP. Wcześniej zauroczyłem się Symfony2, ale po dłuższej zabawie i codziennej z nim walki w pracy stwierdziłem, że przydałoby się jednak coś co nie jest "overengineered", a jednocześnie implementuje i narzuca wszystkie dobre patterny typu m.in. Dependency Injection czy Event Dispatcher.
 
 Splot jest implementacją mojej interpretacji czym powinien zajmować się framework, a co powinien zostawić programiście do implementacji, a także (być może przede wszystkim) zbiorem klocków, które są potrzebne przy budowie współczesnych aplikacji webowych. Nie boi się przy tym korzystać z gotowych rozwiązań, więc od podszewki opiera się też na komponentach Sf2 (m.in. HttpFoundation i Console) częściowo upraszczając ich API.
 
@@ -186,7 +186,7 @@ Niedawno zaimplementowałem też stand-alone Dependency Injection Container ([gi
 
 **Plany na przyszłość **
 
-Splot jest w tej chwili w wersji alpha, choć API ma coraz bardziej stabilniejsze. Raczej nie polecałbym jeszcze nikomu, aby stawiał na nim swoje serwisy, ale jak najbardziej zapraszam do zabawy z nim. Krok po kroku wypuszczam kolejne komponenty (przez wypuszczenie rozumiem pełne pokrycie testami i dokumentacja), aż w końcu przyjdzie czas na release samego frameworka. Niestety, dokumentacji do niego jeszcze nie ma, ale przykładową aplikacją, która na nim działa może być Genry ([michaldudek.pl/genry/](http://www.michaldudek.pl/genry/)) - generator stron statycznych z templatek Twig.
+Splot jest w tej chwili w wersji alpha, choć API ma coraz bardziej stabilniejsze. Raczej nie polecałbym jeszcze nikomu, aby stawiał na nim swoje serwisy, ale jak najbardziej zapraszam do zabawy z nim. Krok po kroku wypuszczam kolejne komponenty (przez wypuszczenie rozumiem pełne pokrycie testami i dokumentacja), aż w końcu przyjdzie czas na release samego frameworka. Niestety, dokumentacji do niego jeszcze nie ma, ale przykładową aplikacją, która na nim działa może być Genry ([michaldudek.pl/genry/](https://www.michaldudek.pl/genry/)) - generator stron statycznych z templatek Twig.
 
 W nowym roku mam nadzieję przysiąść do niego porządnie i wypuścić wersję 1.0.
 
@@ -213,8 +213,8 @@ MomentPHP ma pozostać wierny filozofii bycia "mini" - czyli zawierać w sobie a
 
 **O projekcie**
 
-Strona projektu: [http://momentphp.kminek.pl/](http://momentphp.kminek.pl/)  
-Dokumentacja: [http://momentphp.kminek.pl/docs](http://momentphp.kminek.pl/docs)  
+Strona projektu: [https://momentphp.kminek.pl/](https://momentphp.kminek.pl/)  
+Dokumentacja: [https://momentphp.kminek.pl/docs](https://momentphp.kminek.pl/docs)  
 Github: [https://github.com/momentphp](https://github.com/momentphp)
 
 Mam nadzieję że przedstawiłem Wam parę ciekawych projektów z naszego rodzimego podwórka. Interesujące są również historie każdego z nich. Jak zawsze dziękuję za poświęcony czas i zapraszam do komentowania wpisu. Jeżeli uznasz go za ciekawy to proszę powiedz mi o tym oraz podziel się linkiem z innymi.

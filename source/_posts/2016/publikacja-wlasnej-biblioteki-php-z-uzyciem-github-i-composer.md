@@ -19,9 +19,9 @@ tags:
 
 Jak w szybki i prosty sposób udostępnić światu własny kawałek kodu i stać się kontrybutorem w świecie Open Source. <!-- more -->
 
-Nie da się ukryć, że [Composer](https://getcomposer.org/) zmienił świat zarządzania pakietami w świecie PHP. Inspirowany NPM (menedżerem pakietów dla node.js) stał się powszechnym standardem. Jeżeli jeszcze nie wiesz co to jest ten cały Composer to zachęcam do przeczytania: [Composer czyli jak zarządzać zależnościami w PHP](http://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/).
+Nie da się ukryć, że [Composer](https://getcomposer.org/) zmienił świat zarządzania pakietami w świecie PHP. Inspirowany NPM (menedżerem pakietów dla node.js) stał się powszechnym standardem. Jeżeli jeszcze nie wiesz co to jest ten cały Composer to zachęcam do przeczytania: [Composer czyli jak zarządzać zależnościami w PHP](https://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/).
 
-Composer umożliwia w bardzo prosty sposób instalację wybranej biblioteki. Dla przykładu, aby zainstalować [PHPUnit](http://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/) (bibliotekę do testów jednostkowych) wystarczy wydać proste polecenie:
+Composer umożliwia w bardzo prosty sposób instalację wybranej biblioteki. Dla przykładu, aby zainstalować [PHPUnit](https://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/) (bibliotekę do testów jednostkowych) wystarczy wydać proste polecenie:
 
     
     composer require "phpunit/phpunit"
@@ -112,7 +112,7 @@ zainstalowana zostanie wersja "dev-master" czyli gałąź "master" z repozytoriu
 
 Jak widać publikacja pierwszej biblioteki to bardzo prosta sprawa. Zanim jeszcze zdecydujesz się to zrobić pamiętaj o paru dodatkowych kwestiach.
 
-Nie zapomnij dodać pliku "_LICENSE_" zawierającym pełny tekst licencji na jakiej zasadach publikujesz swoje dzieło. Nie staraj się tworzy niczego nowego, wykorzystaj gotowce lub wybierz odpowiednią na stronie: [http://choosealicense.com/](http://choosealicense.com/). Na przykład przy zakładaniu repo na GitHubie można od razu wybrać automatycznie utworzenie pliku licencji z wybranym jej rodzajem.
+Nie zapomnij dodać pliku "_LICENSE_" zawierającym pełny tekst licencji na jakiej zasadach publikujesz swoje dzieło. Nie staraj się tworzy niczego nowego, wykorzystaj gotowce lub wybierz odpowiednią na stronie: [https://choosealicense.com/](https://choosealicense.com/). Na przykład przy zakładaniu repo na GitHubie można od razu wybrać automatycznie utworzenie pliku licencji z wybranym jej rodzajem.
 
 Dobrą praktyką jest również umieszczenie pliku "_README_" (lub "_README.md_" w formacie markdown) gdzie krótko i zwięźle napiszemy do czego służy dana paczka, jak ją zainstalować, jak z niej korzystać, jak uruchomić testy oraz typ licencji i kto jest jej autorem. Jeżeli instrukcja obsługi jest obszerna, trzeba się zastanowić, czy nie skorzystać z gotowych serwisów typu: [Read the Docs](https://readthedocs.org/) (w kolejnych wpisach na pewno będą o tym pisał). Inną często spotykaną praktyką jest umieszczenie folderu "_examples_" z licznymi przykładki użycia danej paczki.
 

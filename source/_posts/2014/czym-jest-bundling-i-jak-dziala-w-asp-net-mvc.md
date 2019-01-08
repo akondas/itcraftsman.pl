@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2014-09-29 11:46:56+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/czym-jest-bundling-i-jak-dziala-w-asp-net-mvc/
+link: https://itcraftsman.pl/czym-jest-bundling-i-jak-dziala-w-asp-net-mvc/
 slug: czym-jest-bundling-i-jak-dziala-w-asp-net-mvc
 title: Czym jest bundling i jak działa w ASP .NET MVC?
 wordpress_id: 608

@@ -114,7 +114,7 @@ class EmailUser {
 ## Prawo Demeter
 
 
-Przy opisanej wyżej technice warto wspomnieć o czymś co nazywamy Prawem Demeter (źródło [wikipedia](http://pl.wikipedia.org/wiki/Prawo_Demeter)):
+Przy opisanej wyżej technice warto wspomnieć o czymś co nazywamy Prawem Demeter (źródło [wikipedia](https://pl.wikipedia.org/wiki/Prawo_Demeter)):
 
 Prawo Demeter mówi, że metoda danego obiektu może odwoływać się jedynie do metod należących do:
 

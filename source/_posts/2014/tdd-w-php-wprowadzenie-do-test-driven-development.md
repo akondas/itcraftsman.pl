@@ -20,7 +20,7 @@ Wpis ten to wprowadzenie do serii na temat TDD w świecie PHP. Postaram się prz
 
 Może Cię to zaskoczyć, ale na pewno Ty już testujesz swój kod. Nie zawsze są to testy jednostkowe, z reguły mają inną nazwę. Nie zawsze są to też testy automatyczne. Z tego powodu nie nazywasz tego testami. Jednak na pewno piszesz kod, by po chwili sprawdzić jego działanie w przeglądarce. Czy to właśnie nie jest testowanie ? Co powiesz na to aby ten proces zautomatyzować ? Czy nie lepiej, aby za każdym razem gdy zmienisz coś w kodzie, jakaś automatyczna mała armia krasnali testowała twój kod za Ciebie ?
 
-Na początku zacznijmy od definicji, czym jest samo TDD (źródło: [wikipedia](http://pl.wikipedia.org/wiki/Test-driven_development)):
+Na początku zacznijmy od definicji, czym jest samo TDD (źródło: [wikipedia](https://pl.wikipedia.org/wiki/Test-driven_development)):
 
 
 > Programowanie techniką test-driven development wyróżnia się tym, że najpierw programista zaczyna od pisania testów do funkcjonalności, która jeszcze nie została napisana. Na początku testy mogą nawet się nie kompilować, ponieważ może nie być jeszcze elementów kodu (metod, klas) które są w testach użyte.
@@ -100,7 +100,7 @@ W środowisku programiści posługuję się pewnym nazewnictwem, które nie zaws
 
 **Testy jednostkowe**
 
-Są to najbardziej liczne testy. Test jednostkowy powinien sprawdzać jedną konkretną funkcjonalność w obrębie jednej klasy (jednostki) stąd jego nazwa. Nie zawsze musi dotyczyć jednej metody, ale powinien pozostać w zakresie testowanej klasy. Testowanie jednej klasy ułatwia proces wykrywania błędów - będziesz dokładnie wiedział gdzie go szukać, oraz pozwala na pełną automatyzację. Testy jednostkowe powinny być przeprowadzane w izolacji - jeżeli dana klasa potrzebuje innych do swojego działania należy je emulować (więcej o emulacji możesz przeczytać w wpisie: [Testy jednostkowe z PHPUnit oraz Mockery](http://webmastah.pl/testy-jednostkowe-z-phpunit-oraz-mockery/)).
+Są to najbardziej liczne testy. Test jednostkowy powinien sprawdzać jedną konkretną funkcjonalność w obrębie jednej klasy (jednostki) stąd jego nazwa. Nie zawsze musi dotyczyć jednej metody, ale powinien pozostać w zakresie testowanej klasy. Testowanie jednej klasy ułatwia proces wykrywania błędów - będziesz dokładnie wiedział gdzie go szukać, oraz pozwala na pełną automatyzację. Testy jednostkowe powinny być przeprowadzane w izolacji - jeżeli dana klasa potrzebuje innych do swojego działania należy je emulować (więcej o emulacji możesz przeczytać w wpisie: [Testy jednostkowe z PHPUnit oraz Mockery](https://webmastah.pl/testy-jednostkowe-z-phpunit-oraz-mockery/)).
 
 **Testy integracyjne**
 

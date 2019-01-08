@@ -17,9 +17,9 @@ tags:
 - productivity
 ---
 
-Kolejne dwa tygodnie konkursu "[Daj się poznać](http://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)" za nami. Sprawdźmy co udało się dokonać w kwestii rozwoju biblioteki PHP-ML.<!-- more -->
+Kolejne dwa tygodnie konkursu "[Daj się poznać](https://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)" za nami. Sprawdźmy co udało się dokonać w kwestii rozwoju biblioteki PHP-ML.<!-- more -->
 
-Jak pisałem wcześniej ([Postępy w pracy nad PHP-ML](http://itcraftsman.pl/postepy-w-pracy-nad-php-ml/)) miałem drobne problemy z motywacją i rozpoczęciem prac na biblioteką do ML. Aby rozwiązać ten problem, wspomogłem się dość prostą aplikacją o nazwie [Forest](https://play.google.com/store/apps/details?id=cc.forestapp&hl=pl). Odliczała ona określoną ilość czasu i jeżeli przez ten okres nie korzystamy z telefonu (czyli teoretycznie robimy coś tam sobie założonego i pożytecznego) to punktował sukces.
+Jak pisałem wcześniej ([Postępy w pracy nad PHP-ML](https://itcraftsman.pl/postepy-w-pracy-nad-php-ml/)) miałem drobne problemy z motywacją i rozpoczęciem prac na biblioteką do ML. Aby rozwiązać ten problem, wspomogłem się dość prostą aplikacją o nazwie [Forest](https://play.google.com/store/apps/details?id=cc.forestapp&hl=pl). Odliczała ona określoną ilość czasu i jeżeli przez ten okres nie korzystamy z telefonu (czyli teoretycznie robimy coś tam sobie założonego i pożytecznego) to punktował sukces.
 
 Muszę stwierdzić, że był to idealny strzał. Codziennie staram się poświęcić około 30 minut i jak do tej pory to działa. Czasami nawet nie potrzebuję uruchamiać do tego Foresta. Oczywiście, są dni kiedy w 30 minut nie uda mi się stworzyć logicznego i działającego fragmentu kodu, to jednak widać ewidentny postęp prac i przyrost comitów (zielono !!!):
 
@@ -69,7 +69,7 @@ Oraz do tzw. walidacji krzyżowej (o której będzie osobny wpis):
     $randomSplit1->getTrainLabels();
 
 
-Dodatkowo bibliotek posiada kila przykładowych [zbiorów danych](http://itcraftsman.pl/ogolnodostepne-zbiory-danych-do-machine-learningu/), które można w łatwy i szybki sposób użyć do przetestowania algorytmów:
+Dodatkowo bibliotek posiada kila przykładowych [zbiorów danych](https://itcraftsman.pl/ogolnodostepne-zbiory-danych-do-machine-learningu/), które można w łatwy i szybki sposób użyć do przetestowania algorytmów:
    
     
     use Phpml\Dataset\Demo\Iris;
@@ -85,11 +85,11 @@ Na ten moment natrafiłem na problem z implementacją SVM (Support Vector Machin
 
 W między czasie udało mi się też utworzyć parę wpisów (powinny być 4, więc muszę zacząć nadrabiać)
 
-[Publikacja własnej biblioteki PHP z użyciem GitHub i Composer](http://itcraftsman.pl/publikacja-wlasnej-biblioteki-php-z-uzyciem-github-i-composer/)
+[Publikacja własnej biblioteki PHP z użyciem GitHub i Composer](https://itcraftsman.pl/publikacja-wlasnej-biblioteki-php-z-uzyciem-github-i-composer/)
 
-[Red Green Refactor – testy jednostkowe](http://itcraftsman.pl/red-green-refactor-testy-jednostkowe/)
+[Red Green Refactor – testy jednostkowe](https://itcraftsman.pl/red-green-refactor-testy-jednostkowe/)
 
-[Ciągła integracja i Travis CI](http://itcraftsman.pl/ciagla-integracja-i-travis-ci/)
+[Ciągła integracja i Travis CI](https://itcraftsman.pl/ciagla-integracja-i-travis-ci/)
 
 
 Całość (blogowanie i kodowanie) pochłania sporo czasu, ale jestem pewien, że zdobyte w ten sposób doświadczenie, wróci się z nawiązką. Jeżeli macie jakieś pytania lub uwagi to zapraszam do komentowania.

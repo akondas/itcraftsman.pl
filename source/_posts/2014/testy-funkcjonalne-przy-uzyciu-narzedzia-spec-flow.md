@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2014-08-11 20:22:39+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/testy-funkcjonalne-przy-uzyciu-narzedzia-spec-flow/
+link: https://itcraftsman.pl/testy-funkcjonalne-przy-uzyciu-narzedzia-spec-flow/
 slug: testy-funkcjonalne-przy-uzyciu-narzedzia-spec-flow
 title: Testy funkcjonalne przy użyciu narzędzia Spec Flow
 wordpress_id: 223
@@ -55,7 +55,7 @@ Standardowo utworzymy sobie Unit test project przy użyciu Visual Studio 2013. P
 
 [![3](/assets/img/posts/2014/spec34.png)](/assets/img/posts/2014/spec34.png)
 
-Teraz zamknijmy nasz projekt i przejdźmy do strony [http://visualstudiogallery.msdn.microsoft.com/90ac3587-7466-4155-b591-2cd4cc4401bc](http://visualstudiogallery.msdn.microsoft.com/90ac3587-7466-4155-b591-2cd4cc4401bc) aby pobrać dodatek dla naszego Visuala, gdyż zapewne jeśli pierwszy raz spotkaliście się z tego rodzaju technologią, wasze IDE nie będzie domyślnie wyposażone w wymagane przez Spec Flow pliki. Pobieramy i instalujemy.
+Teraz zamknijmy nasz projekt i przejdźmy do strony [https://visualstudiogallery.msdn.microsoft.com/90ac3587-7466-4155-b591-2cd4cc4401bc](https://visualstudiogallery.msdn.microsoft.com/90ac3587-7466-4155-b591-2cd4cc4401bc) aby pobrać dodatek dla naszego Visuala, gdyż zapewne jeśli pierwszy raz spotkaliście się z tego rodzaju technologią, wasze IDE nie będzie domyślnie wyposażone w wymagane przez Spec Flow pliki. Pobieramy i instalujemy.
 
 Następnie do swojego projektu musimy dograć sobie odpowednie dodatki, korzystając z nuget managera. Pobieramy te, przy których znajduje się zielona fajka na zdjęciu :)
 

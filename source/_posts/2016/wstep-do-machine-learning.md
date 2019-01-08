@@ -108,7 +108,7 @@ Teraz kilka praktycznych przykładów wykorzystania uczących się systemów (wi
 
 ## Na zakończenie
 
-W mojej bibliotece chciałbym zaimplementować (na czas trwania konkursu "[Daj Się poznać](http://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)") po jednym z algorytmów do: klasyfikacji, regresji i grupowania.
+W mojej bibliotece chciałbym zaimplementować (na czas trwania konkursu "[Daj Się poznać](https://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)") po jednym z algorytmów do: klasyfikacji, regresji i grupowania.
 
 Jeżeli zaciekawił Cię ten temat i chcesz dowiedzieć się więcej to polecam kurs (po angielsku) z Udacity: [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120). Tymczasem zabieram się za samą bibliotekę ...
 

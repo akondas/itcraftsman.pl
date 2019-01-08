@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2014-08-09 12:33:29+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/pierwsze-kroki-z-selenium-web-driver/
+link: https://itcraftsman.pl/pierwsze-kroki-z-selenium-web-driver/
 slug: pierwsze-kroki-z-selenium-web-driver
 title: Pierwsze kroki z Selenium Web Driver
 wordpress_id: 167
@@ -28,13 +28,13 @@ Po tej operacji otrzymamy prosty projekt do tworzenia testów jednostkowych z wy
 
 [![2](/assets/img/posts/2014/selenium22.png)](/assets/img/posts/2014/selenium22.png)
 
-Następnie do swojego projektu musimy załączyć odpowiednie biblioteki potrzebne do prawidłowego działania naszego narzędzie. W Visualu od 2010 w górę możemy skorzystać z Nuget Managera, w którym możemy w łatwy i szybki sposób wyszukać dodatek i go zainstalować. Jeśli natomiast ktoś z Was korzysta ze starszej wersji Visual Studio takiej jak 2008 to nasze biblioteki musimy pobrać sobie ręcznie ze strony producenta narzędzia i dołączyć referencję poprzez Add Reference -> Browse. Paczkę dllek możecie pobrać bezpośrednio z tej strony: [http://selenium-release.storage.googleapis.com/2.42/selenium-dotnet-2.42.0.zip](http://selenium-release.storage.googleapis.com/2.42/selenium-dotnet-2.42.0.zip). My natomiast skorzystamy sobie z Nugeta :) Instalujemy wybrane dodatki tak jak na zdjęciu :)
+Następnie do swojego projektu musimy załączyć odpowiednie biblioteki potrzebne do prawidłowego działania naszego narzędzie. W Visualu od 2010 w górę możemy skorzystać z Nuget Managera, w którym możemy w łatwy i szybki sposób wyszukać dodatek i go zainstalować. Jeśli natomiast ktoś z Was korzysta ze starszej wersji Visual Studio takiej jak 2008 to nasze biblioteki musimy pobrać sobie ręcznie ze strony producenta narzędzia i dołączyć referencję poprzez Add Reference -> Browse. Paczkę dllek możecie pobrać bezpośrednio z tej strony: [https://selenium-release.storage.googleapis.com/2.42/selenium-dotnet-2.42.0.zip](https://selenium-release.storage.googleapis.com/2.42/selenium-dotnet-2.42.0.zip). My natomiast skorzystamy sobie z Nugeta :) Instalujemy wybrane dodatki tak jak na zdjęciu :)
 
 [![3](/assets/img/posts/2014/selenium33.png)](/assets/img/posts/2014/selenium33.png)
 
 Ok od tego momentu wszystkie klasy i metody Seleniuma są dostępne. Natomiast jeśli będziemy chcieli uruchomić nasz nic nie robiący test przy użyciu skrótu klawiszowego CTRL + R,A otrzymamy błąd, że driver nie został odnaleziony, ponieważ nie pobraliśmy go ze strony producenta i nie wskazaliśmy ścieżki do niego.
 
-Aby to zrobić udajemy się znowu na stronę producenta do działu Download i wybieramy interesujący nas serwer. Na potrzeby naszego tutoriala pobierzemy sobie sterownik dla Internet Explorera w wersji 32 bitowej i umieścimy go na naszym dysku, w moim przypadku będzie to E:\drivers\IEDriver.exe. Pobieramy serwer bezpośrednio z tego linku[ http://selenium-release.storage.googleapis.com/2.42/IEDriverServer_Win32_2.42.0.zip](http://selenium-release.storage.googleapis.com/2.42/IEDriverServer_Win32_2.42.0.zip).
+Aby to zrobić udajemy się znowu na stronę producenta do działu Download i wybieramy interesujący nas serwer. Na potrzeby naszego tutoriala pobierzemy sobie sterownik dla Internet Explorera w wersji 32 bitowej i umieścimy go na naszym dysku, w moim przypadku będzie to E:\drivers\IEDriver.exe. Pobieramy serwer bezpośrednio z tego linku[ https://selenium-release.storage.googleapis.com/2.42/IEDriverServer_Win32_2.42.0.zip](https://selenium-release.storage.googleapis.com/2.42/IEDriverServer_Win32_2.42.0.zip).
 
 Do naszej klasy **SeleniumParameters** dodamy sobie parametr zawierający ścieżkę do naszego drivera, który później przekażemy do metody konfiguracyjnej.
 

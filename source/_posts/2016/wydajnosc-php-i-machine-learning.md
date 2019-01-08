@@ -30,7 +30,7 @@ Inspiracją dla tego wpisu był artykuł pt. "[Is PHP Now Suitable For Machine L
 ## Benchmark
 
 
-Do testowania napisana została prosta klasa, która stosuje [algorytmu k-średnich](http://itcraftsman.pl/algorytm-k-srednich-uczenie-nienadzorowane/) na zbiorze Irysów ([co to są zbiory danych ](http://itcraftsman.pl/ogolnodostepne-zbiory-danych-do-machine-learningu/)?). Jedyna różnica polega na tym, że w tym przypadku mamy klasyfikację, a nie klasteryzację. Całość została bardzo uproszczona i sprowadza się do odszukania najbliższego punktu dla szukanej klasy. Uruchomiony test zawsze będzie przeprowadzał te same operacje (w pętli). W ten sposób możemy skupić się tylko i wyłącznie na operacjach CPU. Będziemy zliczać ilość klasyfikacji jaką uda się osiągnąć w ciągu 30 sekund.
+Do testowania napisana została prosta klasa, która stosuje [algorytmu k-średnich](https://itcraftsman.pl/algorytm-k-srednich-uczenie-nienadzorowane/) na zbiorze Irysów ([co to są zbiory danych ](https://itcraftsman.pl/ogolnodostepne-zbiory-danych-do-machine-learningu/)?). Jedyna różnica polega na tym, że w tym przypadku mamy klasyfikację, a nie klasteryzację. Całość została bardzo uproszczona i sprowadza się do odszukania najbliższego punktu dla szukanej klasy. Uruchomiony test zawsze będzie przeprowadzał te same operacje (w pętli). W ten sposób możemy skupić się tylko i wyłącznie na operacjach CPU. Będziemy zliczać ilość klasyfikacji jaką uda się osiągnąć w ciągu 30 sekund.
 
 Do testów użyłem mojego laptopa o następującej konfiguracji: 8GB RAM i procesor Intel i7 @ 2.40GHz × 8.
 
@@ -64,4 +64,4 @@ Jak widać Java z wynikiem 23 milionów instancji (700 tysięcy na sekundę !) d
 ## Wnioski
 
 
-Jak pokazuje powyższy eksperyment, PHP ma całkiem dobre zadatki, aby stosować w nim Machine Learning. Niestety na ten moment nie ma żadnego dobrego i stabilnego rozwiązania, które można by używać produkcyjne. Przykładowo Python posiada jeden z lepszych pakietów do ML: [scikit-learn](http://scikit-learn.org/stable/). Być może doczekamy się jakiegoś godnego konkurenta ? (mój projekt na razie na pewno się na to nie nadaje :))
+Jak pokazuje powyższy eksperyment, PHP ma całkiem dobre zadatki, aby stosować w nim Machine Learning. Niestety na ten moment nie ma żadnego dobrego i stabilnego rozwiązania, które można by używać produkcyjne. Przykładowo Python posiada jeden z lepszych pakietów do ML: [scikit-learn](https://scikit-learn.org/stable/). Być może doczekamy się jakiegoś godnego konkurenta ? (mój projekt na razie na pewno się na to nie nadaje :))

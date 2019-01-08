@@ -25,7 +25,7 @@ Dzisiaj krótko. Ten wpis będzie z serii bardziej osobistych i nie dotyczy stri
 ## **Podsumowanie roku 2014**
 
 
-Nareszcie znajduje motywacje, czas i odpowiedni zapał do utworzenia bloga. Pierwszy wpis ukazał się 24 czerwca ("[Composer czyli jak zarządzać zależnościami w PHP](http://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/)") i ma na koncie ponad 200 wyświetleń. Krótko potem pojawiły się kolejne wpisy. Oto jak wypadł ten rok w liczbach:
+Nareszcie znajduje motywacje, czas i odpowiedni zapał do utworzenia bloga. Pierwszy wpis ukazał się 24 czerwca ("[Composer czyli jak zarządzać zależnościami w PHP](https://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/)") i ma na koncie ponad 200 wyświetleń. Krótko potem pojawiły się kolejne wpisy. Oto jak wypadł ten rok w liczbach:
 
 30 wpisów
 18 komentarzy (muszę Was jakoś bardziej motywować)
@@ -38,9 +38,9 @@ Nareszcie znajduje motywacje, czas i odpowiedni zapał do utworzenia bloga. Pie
 
 3 najpopularniejsze wpisy:
 
-[Przegląd polskich frameworków PHP](http://itcraftsman.pl/przeglad-polskich-frameworkow-php/)  - 1370 wyświetleń
-[TDD w PHP: testy jednostkowe z PHPUnit – krok po kroku](http://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/) - 505 wyświetleń
-[Powiedz, nie pytaj czyli Prawo Demeter](http://itcraftsman.pl/powiedz-nie-pytaj-czyli-prawo-demeter/) - 370 wyświetleń
+[Przegląd polskich frameworków PHP](https://itcraftsman.pl/przeglad-polskich-frameworkow-php/)  - 1370 wyświetleń
+[TDD w PHP: testy jednostkowe z PHPUnit – krok po kroku](https://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/) - 505 wyświetleń
+[Powiedz, nie pytaj czyli Prawo Demeter](https://itcraftsman.pl/powiedz-nie-pytaj-czyli-prawo-demeter/) - 370 wyświetleń
 
 Udało mi się też rozpocząć parę ciekawych serii do których na pewno będę wracał.
 

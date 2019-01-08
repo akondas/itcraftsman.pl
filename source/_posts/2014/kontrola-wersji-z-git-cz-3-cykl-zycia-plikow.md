@@ -20,7 +20,7 @@ Wiemy już jak stworzyć nowe repozytorium oraz jak zatwierdź pierwsze zmiany. 
 
 Każdy plik w katalogu który poddany jest kontroli wersji może być śledzony lub nieśledzony. Pliki śledzone to te które zostały już dodane do repozytorium poprzez wywołanie _git add_ a następnie _git commit_. Dzielimy je na zmodyfikowane, niezmodyfikowane lub oczekujące w poczekalni. Reszta plików w katalogu to pliki nieśledzone - czyli takie, które nie zostały poddane kontroli wersji.
 
-Podczas zmiany pliku który jest już śledzony Git oznacza ten plik jako zmodyfikowany. Zmodyfikowany plik przed zatwierdzeniem należy dodać do poczekalni (lub od razu wywołać _git commit_ z parametrem _-a_ który pomija poczekalnię, więcej [tutaj](http://itcraftsman.pl/kontrola-wersji-z-git-cz-2-instalacja-konfiguracja-i-pierwszy-commit/)). Po zatwierdzeniu zmian i ponownej modyfikacji cały proces powtarza się ponownie.
+Podczas zmiany pliku który jest już śledzony Git oznacza ten plik jako zmodyfikowany. Zmodyfikowany plik przed zatwierdzeniem należy dodać do poczekalni (lub od razu wywołać _git commit_ z parametrem _-a_ który pomija poczekalnię, więcej [tutaj](https://itcraftsman.pl/kontrola-wersji-z-git-cz-2-instalacja-konfiguracja-i-pierwszy-commit/)). Po zatwierdzeniu zmian i ponownej modyfikacji cały proces powtarza się ponownie.
 
 **Status plików w repozytorium**
 
@@ -80,7 +80,7 @@ $ git add .
 
 **Zatwierdzanie zmian**
 
-Zatwierdzanie zmian zostało już opisane w poprzednim wpisie dostępny [tutaj](http://itcraftsman.pl/kontrola-wersji-z-git-cz-2-instalacja-konfiguracja-i-pierwszy-commit/).
+Zatwierdzanie zmian zostało już opisane w poprzednim wpisie dostępny [tutaj](https://itcraftsman.pl/kontrola-wersji-z-git-cz-2-instalacja-konfiguracja-i-pierwszy-commit/).
 
 **Usuwanie plików**
 

@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2014-11-05 22:24:35+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/wprowadzenie-do-web-serwisow-odata-na-platformie-net/
+link: https://itcraftsman.pl/wprowadzenie-do-web-serwisow-odata-na-platformie-net/
 slug: wprowadzenie-do-web-serwisow-odata-na-platformie-net
 title: Wprowadzenie do web serwisów ODATA na platformie .NET
 wordpress_id: 738
@@ -227,7 +227,7 @@ Po uruchomieniu aplikacji naszego Web Serwisu otrzymamy oczywiście **błąd HTT
 Dzieje się tak, ponieważ my sami musimy wskazać ręcznie ścieżkę do naszego web serwisu OData w adresie URL :)
 
 ```
-http://localhost:29295/odata
+https://localhost:29295/odata
 ```
 
 Po modyfikacji adresu URL będziemy mogli zobaczyć zawartość naszego serwisu:
@@ -238,7 +238,7 @@ Po modyfikacji adresu URL będziemy mogli zobaczyć zawartość naszego serwisu:
 Możemy wyświetlić sobie również meta dane naszego web serwisu wpisując $metadata do adresu URL
 
 ```
-http://localhost:29295/odata/$metadata
+https://localhost:29295/odata/$metadata
 ```
 
 Otrzymamy coś takiego:
@@ -250,7 +250,7 @@ Poprzez adres URL możemy teraz wyświetlać odpowiednie obiekty zadeklarowane w
 Dlatego wpiszmy teraz do naszego adresu nazwę naszej kolekcji obiektów zawartych w bazie:
 
 ```
-http://localhost:29295/odata/Samochods
+https://localhost:29295/odata/Samochods
 ```
 
 Otrzymamy bardzo ładnie wylistowaną listę obiektów wraz z wartościami właściwości :)
@@ -262,7 +262,7 @@ Jak możemy łatwo zauważyć każdy z naszych samochodów posiada odpowiednie I
 Poprzez adres URL możemy również wyświetlić sobie samochód np. o Id = 2
 
 ```
-http://localhost:29295/odata/Samochods(2)
+https://localhost:29295/odata/Samochods(2)
 ```
 
 Wylistowany zostanie tylko ten konkretny samochód o Id = 2
@@ -272,7 +272,7 @@ Wylistowany zostanie tylko ten konkretny samochód o Id = 2
 Ale to nie wszystko :) Możemy wyświetlić sobie np. wszystkie tylko same marki naszych samochodów
 
 ```
-http://localhost:29295/odata/Samochods?$select=Marka
+https://localhost:29295/odata/Samochods?$select=Marka
 ```
 
 Wygląda to tak:
@@ -305,7 +305,7 @@ Następnie skopiujmy adres URL naszego web serwisu ( nie zatrzymujmy uruchomieni
 W oknie które się Nam pojawiło wklej adres URL naszego web serwisu i dopisz do niego /odata
 
 ```
-http://localhost:29295/odata
+https://localhost:29295/odata
 ```
 
 A następnie naciskamy przycisk GO. Jeśli nasz web serwis jest nadal uruchomiony to zostanie on odnaleziony i będziemy mogli dodać go jako referencje do naszej aplikacji klienckiej.
@@ -327,7 +327,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var container = new Container(new Uri("http://localhost:29295/odata"));
+        var container = new Container(new Uri("https://localhost:29295/odata"));
     }
 }
 ```
@@ -339,7 +339,7 @@ class Program
 {
      static void Main(string[] args)
      {
-          var container = new Container(new Uri("http://localhost:29295/odata"));
+          var container = new Container(new Uri("https://localhost:29295/odata"));
           container.SendingRequest2 += (s, e) => Console.WriteLine("{0} {1}", e.RequestMessage.Method, e.RequestMessage.Url);
      }
 }
@@ -403,7 +403,7 @@ Teraz wykorzystajmy sobie te metody i sprawdźmy jak zadziała nasz web serwis. 
 ```cs
  static void Main(string[] args)
  {
-      var container = new Container(new Uri("http://localhost:29295/odata"));
+      var container = new Container(new Uri("https://localhost:29295/odata"));
       container.SendingRequest2 += (s, e) => Console.WriteLine("{0} {1}", e.RequestMessage.Method, e.RequestMessage.Url);
 
       Console.WriteLine("Wyswietl wszystkie samochody");

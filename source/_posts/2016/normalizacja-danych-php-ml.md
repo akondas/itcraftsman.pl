@@ -27,7 +27,7 @@ W bibliotece [PHP-ML](https://github.com/php-ai/php-ml) zaimplementowałem dwie 
 
 ## Norma L1
 
-Matematyczne wyjaśnienie: [http://mathworld.wolfram.com/L1-Norm.html](http://mathworld.wolfram.com/L1-Norm.html)
+Matematyczne wyjaśnienie: [https://mathworld.wolfram.com/L1-Norm.html](https://mathworld.wolfram.com/L1-Norm.html)
 
     
 ```php
@@ -55,7 +55,7 @@ $samples = [
 
 ## Norma L2
 
-Matematyczne wyjaśnienie: [http://mathworld.wolfram.com/L2-Norm.html](http://mathworld.wolfram.com/L2-Norm.html)
+Matematyczne wyjaśnienie: [https://mathworld.wolfram.com/L2-Norm.html](https://mathworld.wolfram.com/L2-Norm.html)
     
 ```php
 use Phpml\Preprocessing\Normalizer;
@@ -82,4 +82,4 @@ $samples = [
 
 # L1 vs L2
 
-Różnice pomiędzy normą L1 i L2, opisane bardziej dokładnie: [http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/](http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/)
+Różnice pomiędzy normą L1 i L2, opisane bardziej dokładnie: [https://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/](https://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/)

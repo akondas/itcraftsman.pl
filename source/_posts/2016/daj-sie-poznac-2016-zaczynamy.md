@@ -24,12 +24,12 @@ Na wstępie dodam, że planowałem ten wpis na pierwszego marca. Jak widać jest
 
 ## Konkurs "Daj Się Poznać"
 
-Konkurs ten popełnił Maciej Aniserowicz autor bloga [devstyle](http://devstyle.pl) oraz podcasta [DevTalk](http://devtalk.pl). Udział polega na spełnianiu dwóch głównych celi (tak samo ważnych) równocześnie i naprzemiennie:
+Konkurs ten popełnił Maciej Aniserowicz autor bloga [devstyle](https://devstyle.pl) oraz podcasta [DevTalk](https://devtalk.pl). Udział polega na spełnianiu dwóch głównych celi (tak samo ważnych) równocześnie i naprzemiennie:
 
   1. Rozwijaniu projektu open-source
   2. Prowadzeniu bloga programistycznego poświęconego rozwijanemu projektowi
 
-Są nagrody, jest wiele uczestników i dużo ciekawych projektów. Po więcej odsyłam na stronę konkursu pod adresem: [http://dajsiepoznac.pl/](http://dajsiepoznac.pl/)
+Są nagrody, jest wiele uczestników i dużo ciekawych projektów. Po więcej odsyłam na stronę konkursu pod adresem: [https://dajsiepoznac.pl/](https://dajsiepoznac.pl/)
 
 ## Moje zgłoszenie
 

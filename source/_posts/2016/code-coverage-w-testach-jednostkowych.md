@@ -53,11 +53,11 @@ Wskaźnik pokrycia funkcji i metod klas. Analogicznie jak w przypadku linii. Fun
 
 **Class and Trait Coverage**
 
-Wskaźnik pokrycia klas i traitów (więcej o [Traits w PHP](http://itcraftsman.pl/jak-korzystac-z-traits-w-php/)). Tak samo jak w powyższych przypadkach. Klasa lub trait uznawany jest za pokryty tylko wtedy, gdy wszystkie jej/jego metody zostały pokryte.
+Wskaźnik pokrycia klas i traitów (więcej o [Traits w PHP](https://itcraftsman.pl/jak-korzystac-z-traits-w-php/)). Tak samo jak w powyższych przypadkach. Klasa lub trait uznawany jest za pokryty tylko wtedy, gdy wszystkie jej/jego metody zostały pokryte.
 
 **Change Risk Anti-Patterns (CRAP) Index**
 
 Indeks ryzyka zmian w kodzie. Liczony na podstawie [złożoności cyklometrycznej](https://pl.wikipedia.org/wiki/Z%C5%82o%C5%BCono%C5%9B%C4%87_cyklomatyczna) i stopnia pokrycia kodu danej jednostki (metody lub klasy). Kod, który nie jest zbyt skomplikowany i ma odpowiednie pokrycie będzie miał niski indeks CRAP. Indeks CRAP można obniżyć poprzez pisanie testów i refaktoryzację kodu w celu obniżenia jego złożoność.
 
 
-Dla bardziej ciekawskich polecam szersze opracowanie tego tematu w artykule: [How to Misuse Code Coverage](http://www.exampler.com/testing-com/writings/coverage.pdf). W następnym wpisie przygotuję krótki przewodnik krok po kroku ja generować raporty Code Coverage przy użyciu PHPUnita.
+Dla bardziej ciekawskich polecam szersze opracowanie tego tematu w artykule: [How to Misuse Code Coverage](https://www.exampler.com/testing-com/writings/coverage.pdf). W następnym wpisie przygotuję krótki przewodnik krok po kroku ja generować raporty Code Coverage przy użyciu PHPUnita.

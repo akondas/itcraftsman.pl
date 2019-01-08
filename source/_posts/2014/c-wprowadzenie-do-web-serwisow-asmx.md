@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2014-10-08 21:51:41+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/c-wprowadzenie-do-web-serwisow-asmx/
+link: https://itcraftsman.pl/c-wprowadzenie-do-web-serwisow-asmx/
 slug: c-wprowadzenie-do-web-serwisow-asmx
 title: 'C#: Wprowadzenie do web serwisów ASMX'
 wordpress_id: 620

@@ -21,7 +21,7 @@ Na samym początku ostrzegam wszystkich: SASS uzależnia. Jak spróbujesz to nie
 ## Co to jest SASS ?
 
 
-SASS (Syntactically Awesome Stylesheets) to rozszerzenie języka CSS które wnosi go na całkowicie nowy poziom. Sam SASS występuje w dwóch wersjach składniowych: starszej (podobnej do [Haml](http://pl.wikipedia.org/wiki/Haml)) oraz nowszej SCSS (czyli Sassy CSS) którą się zajmiemy. Nowsza składnia bardzo przypomina standardowe arkusze CSS ale pozwala jednocześnie korzystać z dobrodziejstwa SASS'a. Każdy arkusz CSS będzie poprawnym arkuszem SCSS ale odwrotnie już nie. Aby móc wykorzystać wszystkie możliwości, które zostaną opisane poniżej, potrzebujemy kompilatora SASS który przetworzy nasz plik .scss w plik .css. Można to zrobić na parę sposób które opiszę pod koniec. Tymczasem przedstawię 6 głównych zalet/możliwości tego skryptowego języka, które na pewno będzie można wykorzystać od zaraz.
+SASS (Syntactically Awesome Stylesheets) to rozszerzenie języka CSS które wnosi go na całkowicie nowy poziom. Sam SASS występuje w dwóch wersjach składniowych: starszej (podobnej do [Haml](https://pl.wikipedia.org/wiki/Haml)) oraz nowszej SCSS (czyli Sassy CSS) którą się zajmiemy. Nowsza składnia bardzo przypomina standardowe arkusze CSS ale pozwala jednocześnie korzystać z dobrodziejstwa SASS'a. Każdy arkusz CSS będzie poprawnym arkuszem SCSS ale odwrotnie już nie. Aby móc wykorzystać wszystkie możliwości, które zostaną opisane poniżej, potrzebujemy kompilatora SASS który przetworzy nasz plik .scss w plik .css. Można to zrobić na parę sposób które opiszę pod koniec. Tymczasem przedstawię 6 głównych zalet/możliwości tego skryptowego języka, które na pewno będzie można wykorzystać od zaraz.
 
 
 
@@ -259,7 +259,7 @@ Po kompilacji uzyskamy:
 
 ```
 
-Po więcej ciekawszych funkcji odsyłam do oficjalnej [dokumentacji](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript).
+Po więcej ciekawszych funkcji odsyłam do oficjalnej [dokumentacji](https://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript).
 
 
 ## Instalacja
@@ -270,16 +270,16 @@ Mam nadzieję że przedstawione wyżej cechy zachęciły już Was do instalacji 
 
 
 	
-  * Instalacja specjalnego oprogramowania które śledzi i przetwarza pliki na bieżąco. Jest to najprostsze rozwiązanie. Niestety na serwerze docelowym nie zawsze będzie możliwość instalacji osobnej aplikacji. W takim przypadku zawsze pozostaje możliwość kompilacji lokalnie i wrzucanie przetworzonego pliku na zdalny serwer/maszynę. Na [tej stronie](http://sass-lang.com/install) znajduje się lista aplikacji (darmowych lub płatnych) pod różne systemy. Po instalacji i uruchomieniu sprawa zwykle wygląda bardzo podobnie: wskazujemy katalog który ma być "obserwowany", jeżeli nastąpią w nim zmiany plików .scss (ale nie tylko), to aplikacja automatycznie wygeneruje odpowiednie pliki .css.[![koala](/assets/img/posts/2014/koala.png)](/assets/img/posts/2014/koala.png)
+  * Instalacja specjalnego oprogramowania które śledzi i przetwarza pliki na bieżąco. Jest to najprostsze rozwiązanie. Niestety na serwerze docelowym nie zawsze będzie możliwość instalacji osobnej aplikacji. W takim przypadku zawsze pozostaje możliwość kompilacji lokalnie i wrzucanie przetworzonego pliku na zdalny serwer/maszynę. Na [tej stronie](https://sass-lang.com/install) znajduje się lista aplikacji (darmowych lub płatnych) pod różne systemy. Po instalacji i uruchomieniu sprawa zwykle wygląda bardzo podobnie: wskazujemy katalog który ma być "obserwowany", jeżeli nastąpią w nim zmiany plików .scss (ale nie tylko), to aplikacja automatycznie wygeneruje odpowiednie pliki .css.[![koala](/assets/img/posts/2014/koala.png)](/assets/img/posts/2014/koala.png)
 
 	
-  * Trudniejszą opcją jest instalacja SASS'a ręcznie. Na chwilę obecną [instalacja](http://sass-lang.com/install) możliwa jest to pod systemami: Linux, Windows oraz Mac. Na każdym systemie wygląda to bardzo podobnie. Najpierw instalujemy Ruby, a następnie za pomocą Gem'a instalujemy SASS'a, poleceniem (zakładając że mamy ruby w konsoli):
+  * Trudniejszą opcją jest instalacja SASS'a ręcznie. Na chwilę obecną [instalacja](https://sass-lang.com/install) możliwa jest to pod systemami: Linux, Windows oraz Mac. Na każdym systemie wygląda to bardzo podobnie. Najpierw instalujemy Ruby, a następnie za pomocą Gem'a instalujemy SASS'a, poleceniem (zakładając że mamy ruby w konsoli):
 
 ```
 gem install sass
 ```
 
-Instalator Ruby dla Windows znajdziesz [tutaj](http://rubyinstaller.org/downloads/). W czasie instalacji zaznaczamy opcję "Add Ruby executables to your PATH". Po instalacji odpalamy wiersz poleceń (cmd.exe) i wpisujemy powyższą linijkę.
+Instalator Ruby dla Windows znajdziesz [tutaj](https://rubyinstaller.org/downloads/). W czasie instalacji zaznaczamy opcję "Add Ruby executables to your PATH". Po instalacji odpalamy wiersz poleceń (cmd.exe) i wpisujemy powyższą linijkę.
 
 Dla systemów Linux polecam skorzystanie z odpowiedniego dla dystrybucji managera (np. apt-get dla Ubuntu).
 
@@ -312,7 +312,7 @@ Podobna sprawa jak powyżej, z tym, że teraz, SASS będzie obserwował nie poje
 
 _**sass --help**_
 
-Spis wszystkich dostępnych komend i ich parametrów znajdziesz w oficjalnej [dokumentacji](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript). Polecam dla bardziej dociekliwych użytkowników.
+Spis wszystkich dostępnych komend i ich parametrów znajdziesz w oficjalnej [dokumentacji](https://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript). Polecam dla bardziej dociekliwych użytkowników.
 
 
 ## Style kompilowania
@@ -411,9 +411,9 @@ Jak widać, te bardziej "rozłożyste", będzie można wykorzystać w procesie k
 
 Na koniec zamieszczam linki do bardzo ciekawych gotowych bibliotek oraz innych narzędzi które mogą się przydać. Niektóre z nich można by nazwać wręcz micro-frameworkami. Polecam zapoznanie się z nimi:
 
-  * [**http://bourbon.io/** ](http://bourbon.io/)- razem w parze z Neat tworzą bardzo dobry zestaw (framework) do tworzenia złożonych projektów
-  * **[http://compass-style.org/](http://compass-style.org/) - **wsparcie dla CSS3 oraz przyjazność dla designerów to główne cechy Compassa
-  * [**http://sassmeister.com/**](http://sassmeister.com/) - pozwala on-line przetwarzać SASS do CSS
+  * [**https://bourbon.io/** ](https://bourbon.io/)- razem w parze z Neat tworzą bardzo dobry zestaw (framework) do tworzenia złożonych projektów
+  * **[https://compass-style.org/](https://compass-style.org/) - **wsparcie dla CSS3 oraz przyjazność dla designerów to główne cechy Compassa
+  * [**https://sassmeister.com/**](https://sassmeister.com/) - pozwala on-line przetwarzać SASS do CSS
 
 
 Na początek sporo wiedzy do przyswojenia, ale na pewno nie będzie to zmarnowany czas. Umiejętność obchodzenia się z arkuszami scss sprawi, że twoje notowania na pewno wzrosną.

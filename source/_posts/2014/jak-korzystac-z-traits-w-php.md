@@ -215,6 +215,6 @@ W ten sposób zachowujemy dostęp do obu identycznie nazwanych metod.
 
 
 
-Podsumowując traits'y: są one bardzo pomocnym mechanizmem który rozwiązuje problem dziedziczenia wielokrotnego. Przy czym omijają one tzw "[_diamentowy problem_](http://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)", który powstaje w przypadku języków używających mechanizmu wielokrotnego dziedziczenia.  Mam nadzieję, że udało mi się w jasny sposób przedstawić sposoby wykorzystania traits. Jak zawsze dziękuję za poświęcony czas oraz zachęcam do komentowania lub konstruktywnej krytyki :)
+Podsumowując traits'y: są one bardzo pomocnym mechanizmem który rozwiązuje problem dziedziczenia wielokrotnego. Przy czym omijają one tzw "[_diamentowy problem_](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)", który powstaje w przypadku języków używających mechanizmu wielokrotnego dziedziczenia.  Mam nadzieję, że udało mi się w jasny sposób przedstawić sposoby wykorzystania traits. Jak zawsze dziękuję za poświęcony czas oraz zachęcam do komentowania lub konstruktywnej krytyki :)
 
 

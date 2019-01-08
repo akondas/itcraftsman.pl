@@ -21,7 +21,7 @@ tags:
 
 Wpis zamykający krótką serię dotyczącą dokumentacji projektu. W poście tym omówię co powinna zawierać dobra dokumentacja. Dodatkowo przedstawię generowanie i hostowanie dokumentacji z wykorzystaniem bezpłatnej usługi Read the Docs. Zapraszam.<!-- more -->
 
-W poprzednich wpisach skupiłem się na formacie [Markdown](http://itcraftsman.pl/markdown-tworzenie-dokumentacji-projektu/) oraz pliku [README.md](http://itcraftsman.pl/dokumentacja-projektu-pragmatyczne-readme-md/). Czas zająć się szczegółową dokumentację projektu, która dla użytkowników Twojej biblioteki może być niezbędna. Zanim przejdę do omówienia Read the Docs kilka porad na temat samej dokumentacji.
+W poprzednich wpisach skupiłem się na formacie [Markdown](https://itcraftsman.pl/markdown-tworzenie-dokumentacji-projektu/) oraz pliku [README.md](https://itcraftsman.pl/dokumentacja-projektu-pragmatyczne-readme-md/). Czas zająć się szczegółową dokumentację projektu, która dla użytkowników Twojej biblioteki może być niezbędna. Zanim przejdę do omówienia Read the Docs kilka porad na temat samej dokumentacji.
 
 
 ## Zawartość dokumentacji
@@ -41,7 +41,7 @@ Powinien to być kompleksowy opis poszczególnych tematów Twojego projektu. Pro
 
 Do przewodników takich przejdą użytkownicy, którzy są już zaznajomieni z samouczkami i chcieliby zgłębić wiedzę na temat Twojej biblioteki. Pamiętaj, że nie musisz zamieszczać w num wszystkich funkcji, metod czy parametrów. Ta części dokumentacji powinno być jak najbardziej wszechstronna.
 
-Przykład: [http://symfony.com/doc/current/book/index.html](http://symfony.com/doc/current/book/index.html)
+Przykład: [https://symfony.com/doc/current/book/index.html](https://symfony.com/doc/current/book/index.html)
 
 **Szczegółowa referencja**
 
@@ -90,7 +90,7 @@ pages:
 theme: readthedocs
 ```
 
-Pełny opis wszystkich dostępnych opcji znajduje się pod adresem: [http://www.mkdocs.org/user-guide/configuration/](http://www.mkdocs.org/user-guide/configuration/)
+Pełny opis wszystkich dostępnych opcji znajduje się pod adresem: [https://www.mkdocs.org/user-guide/configuration/](https://www.mkdocs.org/user-guide/configuration/)
 
 Krótki opis  użytych przeze mnie kluczy:
 
@@ -115,4 +115,4 @@ Read the Docs powinien automatycznie wykryć rodzaj dokumentacji (Mkdocs). Jeże
 ![screenshot-readthedocs.org 2016-05-03 13-23-45](/assets/img/posts/2016/screenshot-readthedocs.org-2016-05-03-13-23-45.png)
 
 
-Na koniec link do dokumentacji projektu PHP-ML wygenerowanej przy użyciu Read the Docs: [http://php-ml.readthedocs.io/](http://php-ml.readthedocs.io/)
+Na koniec link do dokumentacji projektu PHP-ML wygenerowanej przy użyciu Read the Docs: [https://php-ml.readthedocs.io/](https://php-ml.readthedocs.io/)

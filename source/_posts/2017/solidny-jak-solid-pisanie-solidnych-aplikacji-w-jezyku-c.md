@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2017-10-13 21:41:01+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/solidny-jak-solid-pisanie-solidnych-aplikacji-w-jezyku-c/
+link: https://itcraftsman.pl/solidny-jak-solid-pisanie-solidnych-aplikacji-w-jezyku-c/
 slug: solidny-jak-solid-pisanie-solidnych-aplikacji-w-jezyku-c
 title: SOLIDny jak SOLID. Zastosowanie dobrych praktyk podczas tworzenia aplikacji w C#
 wordpress_id: 1779

@@ -84,7 +84,7 @@ Zwróć uwagę na nazewnictwo samych testów. Nazwa metody testu powinna oddawa
 
 **Inny przykład z użyciem mocka.**
 
-Załóżmy teraz, że mamy klasę użytkownika o nazwie _User_. Posiada ona metodę _setPassword_ która tworzy nam hash hasła. Zazwyczaj w takim przypadku będziemy posiłkować się jakimś gotowym rozwiązaniem (biblioteką), które posiada swoje testy jednostkowe. Dlatego najlepszy sposobem będzie utworzenie mocka (więcej o mockowaniu czytaj w wpisie: [Testy jednostkowe z PHPUnit oraz Mockery](http://webmastah.pl/testy-jednostkowe-z-phpunit-oraz-mockery/)). Tym razem zaczniemy od napisania testu (czyli tak jak się to teoretycznie powinno robić):
+Załóżmy teraz, że mamy klasę użytkownika o nazwie _User_. Posiada ona metodę _setPassword_ która tworzy nam hash hasła. Zazwyczaj w takim przypadku będziemy posiłkować się jakimś gotowym rozwiązaniem (biblioteką), które posiada swoje testy jednostkowe. Dlatego najlepszy sposobem będzie utworzenie mocka (więcej o mockowaniu czytaj w wpisie: [Testy jednostkowe z PHPUnit oraz Mockery](https://webmastah.pl/testy-jednostkowe-z-phpunit-oraz-mockery/)). Tym razem zaczniemy od napisania testu (czyli tak jak się to teoretycznie powinno robić):
 
 ```php
 class UserTest extends PHPUnit_Framework_TestCase
@@ -243,7 +243,7 @@ class Model
 
 Całość przechodzi test na zielono. Jeżeli nie wierzysz, pobierz źródła (link na początku artykułu) i sprawdź sam.
 
-**Tworzymy helper używając traits **(nie wiesz co to traits, czytaj: [Jak korzystać z traits w PHP](http://itcraftsman.pl/jak-korzystac-z-traits-w-php/))
+**Tworzymy helper używając traits **(nie wiesz co to traits, czytaj: [Jak korzystać z traits w PHP](https://itcraftsman.pl/jak-korzystac-z-traits-w-php/))
 
 Zakładam teraz, że w testowanej aplikacji mamy więcej niż jeden model do przetestowania. Jeżeli tak, to pisanie dla każdego modelu, za każdym razem testu walidacji, może być uciążliwe. Aby ułatwić sobie proces ciągłego testowania stworzymy przydatny helper korzystając z tratis.
 

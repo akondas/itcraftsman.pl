@@ -20,7 +20,7 @@ tags:
 
 Konkretny wpis na temat wykorzystania bardzo popularnego narzędzia, jakim jest PHPUnit, do tworzenia testów jednostkowych. Od instalacji, przez konfigurację do testowania kodu.<!-- more -->
 
-[PHPUnit](https://phpunit.de/) to framework testów jednostkowych, którego autorem jest Sebastian Bergmann. Jak inne tego typu frameworki używa on do testów tzw. asercji, które sprawdzają jak zachowuje się kod poddany testom (można spotkać się również z skrótem SUT - system under test). O idei samych testów jednostkowych możesz przeczytać w [Wprowadzeniu do TDD w PHP](http://itcraftsman.pl/tdd-w-php-wprowadzenie-do-test-driven-development/). PHPUnit jest w pełni obiektowym narzędziem, które czerpie swoje rozwiązania z frameworków typu xUnit.
+[PHPUnit](https://phpunit.de/) to framework testów jednostkowych, którego autorem jest Sebastian Bergmann. Jak inne tego typu frameworki używa on do testów tzw. asercji, które sprawdzają jak zachowuje się kod poddany testom (można spotkać się również z skrótem SUT - system under test). O idei samych testów jednostkowych możesz przeczytać w [Wprowadzeniu do TDD w PHP](https://itcraftsman.pl/tdd-w-php-wprowadzenie-do-test-driven-development/). PHPUnit jest w pełni obiektowym narzędziem, które czerpie swoje rozwiązania z frameworków typu xUnit.
 
 Trzeba jeszcze rozjaśnić, czym jest ta cała asercja ? Najpierw pozwolę sobie zacytować Wikipedię:
 
@@ -47,7 +47,7 @@ Ok, po krótkim wstępie możemy przejść do instalacji.
 ## Instalacja PHPUnit
 
 
-Na potrzeby tego wpisu zainstalujemy PHPUnit globalnie, korzystając z [Composera](http://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/). Cała operacja może wydać się nieco skomplikowana, ale zrobimy ją tylko raz. Potem, do każdego projektu, będziesz mógł używać PHPUnit od ręki.
+Na potrzeby tego wpisu zainstalujemy PHPUnit globalnie, korzystając z [Composera](https://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/). Cała operacja może wydać się nieco skomplikowana, ale zrobimy ją tylko raz. Potem, do każdego projektu, będziesz mógł używać PHPUnit od ręki.
 
 Uruchamiamy terminal (lub wiersz poleceń) i wpisujemy:
 
@@ -111,7 +111,7 @@ vendor/bin/phpunit
 
 **Kolory**
 
-Jeżeli korzystasz z systemu Windows i chcesz aby komunikaty w wierszu poleceń były kolorowe (a na pewno chcesz) to polecam instalację [ANSICON](http://adoxa.altervista.org/ansicon/) (wystarczy pobrać, rozpakować i odpalić exeka).
+Jeżeli korzystasz z systemu Windows i chcesz aby komunikaty w wierszu poleceń były kolorowe (a na pewno chcesz) to polecam instalację [ANSICON](https://adoxa.altervista.org/ansicon/) (wystarczy pobrać, rozpakować i odpalić exeka).
 
 
 
@@ -223,7 +223,7 @@ $fruits = ['Apple', 'Orange', 'Grapefruit'];
 $this->assertInternalType('array', $fruits);
 ```
 
-Sprawdzamy czy podany parametr (jako drugi) jest konkretnego typu. Typ musi być wyrażony jako string ([rodzaje typów](http://php.net/manual/en/language.types.php)).
+Sprawdzamy czy podany parametr (jako drugi) jest konkretnego typu. Typ musi być wyrażony jako string ([rodzaje typów](https://php.net/manual/en/language.types.php)).
 
 **assertInstanceOf**
 
@@ -252,4 +252,4 @@ Po spacji wpisujemy nazwę spodziewanego wyjątku (np. _Exception_ lub _InvalidN
 
 
 
-Uff ... wpis zrobił się trochę długi, ale z mnóstwem przykładów. Jeżeli udało ci się dobrnąć do końca, to przyjmij moje gratulacje, jesteś gotowy to przejścia na wyższy poziom. W następnym wpisie z tej serii zajmiemy się praktycznym testowanie całych klas. Jeżeli chciałbyś już teraz poszerzyć swoją wiedzę to zapraszam do mojego gościnnego wpisu: [Testy jednostkowe z PHPUnit oraz Mockery](http://webmastah.pl/testy-jednostkowe-z-phpunit-oraz-mockery/). Jak zawsze zachęcam do komentowania, w miarę możliwości odpowiem na każde, nawet najtrudniejsze pytanie :P
+Uff ... wpis zrobił się trochę długi, ale z mnóstwem przykładów. Jeżeli udało ci się dobrnąć do końca, to przyjmij moje gratulacje, jesteś gotowy to przejścia na wyższy poziom. W następnym wpisie z tej serii zajmiemy się praktycznym testowanie całych klas. Jeżeli chciałbyś już teraz poszerzyć swoją wiedzę to zapraszam do mojego gościnnego wpisu: [Testy jednostkowe z PHPUnit oraz Mockery](https://webmastah.pl/testy-jednostkowe-z-phpunit-oraz-mockery/). Jak zawsze zachęcam do komentowania, w miarę możliwości odpowiem na każde, nawet najtrudniejsze pytanie :P

@@ -52,7 +52,7 @@ Zarządzanie zmianami w zespole. Moim zdaniem, ważniejszy niż problem pierwszy
 
 **Lokalny system kontroli wersji**
 
-Jak wspomniałem na wstępie, najprostszą metodą wersjonowania własnej pracy jest stworzenie kopi plików w nowym katalogu. Tak działa też lokalny system kontroli wersji. Przetrzymuje on wszystkie zmiany dokonane na plikach w lokalnej bazie danych. Dzięki niej możliwe jest odtwarzanie zmian dokonanych na plikach z przeszłości. Najbardziej popularnym tego typu systemem jest [rcs](http://pl.wikipedia.org/wiki/Revision_Control_System).
+Jak wspomniałem na wstępie, najprostszą metodą wersjonowania własnej pracy jest stworzenie kopi plików w nowym katalogu. Tak działa też lokalny system kontroli wersji. Przetrzymuje on wszystkie zmiany dokonane na plikach w lokalnej bazie danych. Dzięki niej możliwe jest odtwarzanie zmian dokonanych na plikach z przeszłości. Najbardziej popularnym tego typu systemem jest [rcs](https://pl.wikipedia.org/wiki/Revision_Control_System).
 
 [![lokalny-system-kontroli-wersji](/assets/img/posts/2014/lokalny-system-kontroli-wersji.png)](/assets/img/posts/2014/lokalny-system-kontroli-wersji.png)
 

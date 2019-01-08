@@ -116,7 +116,7 @@ mysql> select * from adverts limit 1 offset 10918
 
 **Wyliczanie prawdopodobieństwa:**
 
-Kolejna technika została odnaleziona pod adresem: [http://explainextended.com/2009/03/01/selecting-random-rows/](http://explainextended.com/2009/03/01/selecting-random-rows/). Sprawdza się ona w przypadku gdy chcemy wylosować więcej niż jeden wiersz (ale dla jednego wiersza również działa). Nie będziemy jej szczegółowo tłumaczyć gdyż zrobił to sam autor w podanym artykule :)
+Kolejna technika została odnaleziona pod adresem: [https://explainextended.com/2009/03/01/selecting-random-rows/](https://explainextended.com/2009/03/01/selecting-random-rows/). Sprawdza się ona w przypadku gdy chcemy wylosować więcej niż jeden wiersz (ale dla jednego wiersza również działa). Nie będziemy jej szczegółowo tłumaczyć gdyż zrobił to sam autor w podanym artykule :)
 
 ```
 SELECT * FROM  (

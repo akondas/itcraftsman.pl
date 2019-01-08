@@ -3,7 +3,7 @@ author: Jakub Jankiewicz
 comments: true
 date: 2014-08-18 20:28:12+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/jak-napisac-wlasna-obsluge-protokolu-json-rpc-w-javascript-i-php/
+link: https://itcraftsman.pl/jak-napisac-wlasna-obsluge-protokolu-json-rpc-w-javascript-i-php/
 slug: jak-napisac-wlasna-obsluge-protokolu-json-rpc-w-javascript-i-php
 title: Jak napisać własną obsługę protokołu JSON-RPC w JavaScript i PHP
 wordpress_id: 303
@@ -16,9 +16,9 @@ tags:
 - rpc
 ---
 
-Niniejszy artykuł jest wpisem gościnnym [Jakub Jankiewicza](http://jcubic.pl/jakub-jankiewicz) autora bloga [Głównie JavaScript](http://jcubic.pl).
+Niniejszy artykuł jest wpisem gościnnym [Jakub Jankiewicza](https://jcubic.pl/jakub-jankiewicz) autora bloga [Głównie JavaScript](https://jcubic.pl).
 
-[JSON-RPC](http://pl.wikipedia.org/wiki/JSON-RPC) to protokół zdalnego wywoływania procedur (ang. Remote Procedure Call), w którym zapytanie oraz wynik zwracany przez serwer są przesyłane w postaci [JSON-a](http://pl.wikipedia.org/wiki/JSON) (skrót od JavaScript Object Notation). Jest to bardzo prosty protokół, który zazwyczaj implementuje się ponad [HTTP](http://pl.wikipedia.org/wiki/HTTP). Przykładowe zapytanie może wyglądać tak jak poniżej: 
+[JSON-RPC](https://pl.wikipedia.org/wiki/JSON-RPC) to protokół zdalnego wywoływania procedur (ang. Remote Procedure Call), w którym zapytanie oraz wynik zwracany przez serwer są przesyłane w postaci [JSON-a](https://pl.wikipedia.org/wiki/JSON) (skrót od JavaScript Object Notation). Jest to bardzo prosty protokół, który zazwyczaj implementuje się ponad [HTTP](https://pl.wikipedia.org/wiki/HTTP). Przykładowe zapytanie może wyglądać tak jak poniżej: 
 
 ```javascript
  {"id": 1, "jsonrpc":"2.0", "method": "echo", "params": ["hello"]}
@@ -29,7 +29,7 @@ Niniejszy artykuł jest wpisem gościnnym [Jakub Jankiewicza](http://jcubic.pl/j
  {"id": 1, "jsonrpc":"2.0", "error": null, "result": "hello"}
  ``` 
  
- Protokół **JSON-RPC** jest fantastycznym sposobem na organizację **aplikacji SPA** (ang. Single Page Application). Jeśli użyjemy odpowiedniej implementacji, w której każda zdalna procedura będzie miała swój odpowiednik w JavaScript-cie, będziemy mogli całkowicie zapomnieć o warstwie, która łączy klienta (czyli przeglądarkę internetową) oraz serwer. Możemy uprościć nasz model myślowy i myśleć tak, że wywołanie funkcji w **JavaScript-cie** wywołuje kod po stronie serwera. Mając otwarte dwa pliki, klienta oraz serwera możemy o nich myśleć jak o części tej samej aplikacji, będą się tylko różniły składnią, jeśli użyjemy innych języków. W dalszej części artykułu przedstawię jak napisać prostą implementację protokołu **JSON-RPC** w **PHP** oraz **JavaScript-cie** z wykorzystaniem obiektów **Deferred** z biblioteki **jQuery**. Nic nie staje jednak na przeszkodzie abyś zaimplementował obsługę **JSON-RPC** w innym języku np. w **Pythonie**, **Ruby** czy **Node.js**. Mimo że istnieje wiele implementacji tego protokołu w różnych językach, pokażemy w jaki sposób [cheap cialis](http://cialisincanada-cheap.com/#viagra-or-cialis)  napisać taką od zera. Wiele frameworków czy to w **JavaScript** czy **PHP** implementujących architekturę [MVC](http://pl.wikipedia.org/wiki/Model-View-Controller) zawiera nieprawidłowy **Model**, który zazwyczaj jest po prostu abstrakcją nad danymi, a nie logiką aplikacji. Stosując zdalne procedury, które będą zawierały całą logikę aplikacji napisaną po stronie serwera oraz dodając **Widok** w postaci szablonów oraz **Kontroler** w JavaScript-cie otrzymujemy prawdziwą architekturę **MVC**, przy czym otrzymujemy jedną całość zawierająca klienta oraz serwer. 
+ Protokół **JSON-RPC** jest fantastycznym sposobem na organizację **aplikacji SPA** (ang. Single Page Application). Jeśli użyjemy odpowiedniej implementacji, w której każda zdalna procedura będzie miała swój odpowiednik w JavaScript-cie, będziemy mogli całkowicie zapomnieć o warstwie, która łączy klienta (czyli przeglądarkę internetową) oraz serwer. Możemy uprościć nasz model myślowy i myśleć tak, że wywołanie funkcji w **JavaScript-cie** wywołuje kod po stronie serwera. Mając otwarte dwa pliki, klienta oraz serwera możemy o nich myśleć jak o części tej samej aplikacji, będą się tylko różniły składnią, jeśli użyjemy innych języków. W dalszej części artykułu przedstawię jak napisać prostą implementację protokołu **JSON-RPC** w **PHP** oraz **JavaScript-cie** z wykorzystaniem obiektów **Deferred** z biblioteki **jQuery**. Nic nie staje jednak na przeszkodzie abyś zaimplementował obsługę **JSON-RPC** w innym języku np. w **Pythonie**, **Ruby** czy **Node.js**. Mimo że istnieje wiele implementacji tego protokołu w różnych językach, pokażemy w jaki sposób [cheap cialis](https://cialisincanada-cheap.com/#viagra-or-cialis)  napisać taką od zera. Wiele frameworków czy to w **JavaScript** czy **PHP** implementujących architekturę [MVC](https://pl.wikipedia.org/wiki/Model-View-Controller) zawiera nieprawidłowy **Model**, który zazwyczaj jest po prostu abstrakcją nad danymi, a nie logiką aplikacji. Stosując zdalne procedury, które będą zawierały całą logikę aplikacji napisaną po stronie serwera oraz dodając **Widok** w postaci szablonów oraz **Kontroler** w JavaScript-cie otrzymujemy prawdziwą architekturę **MVC**, przy czym otrzymujemy jedną całość zawierająca klienta oraz serwer. 
 
 ## Implementacja Serwera
 
@@ -47,7 +47,7 @@ class Service {
 $service = new Service();
 ```
 
-Nie napisaliśmy funkcji echo ponieważ, w języku php, jest to słowo zastrzeżone i nie może występować jako nazwa metody. Napiszemy funkcję **`json_rpc`**, do której przekażemy instancję obiektu **`Service`**, którego referencja znajdującego się w zmiennej **`$service`**. W protokole **JSON-RPC** klient wysyła dane pod postacią obiektów **JSON-a** metodą **POST**, dlatego pierwszą rzeczą jak musimy zrobić to zdekodować dane przesłane od klienta. Nie możemy posłużyć się tablicą **`$_POST`**, ponieważ musimy mieć dostęp do surowych danych pod postacią tekstu, istnieje kilka sposobów pobrania [viagra generic online](http://viagracanadian-online.com/)  takich danych w zależności od wersji php. My posłużymy się poniższym kodem, który powinien działać w różnych wersjach php.
+Nie napisaliśmy funkcji echo ponieważ, w języku php, jest to słowo zastrzeżone i nie może występować jako nazwa metody. Napiszemy funkcję **`json_rpc`**, do której przekażemy instancję obiektu **`Service`**, którego referencja znajdującego się w zmiennej **`$service`**. W protokole **JSON-RPC** klient wysyła dane pod postacią obiektów **JSON-a** metodą **POST**, dlatego pierwszą rzeczą jak musimy zrobić to zdekodować dane przesłane od klienta. Nie możemy posłużyć się tablicą **`$_POST`**, ponieważ musimy mieć dostęp do surowych danych pod postacią tekstu, istnieje kilka sposobów pobrania [viagra generic online](https://viagracanadian-online.com/)  takich danych w zależności od wersji php. My posłużymy się poniższym kodem, który powinien działać w różnych wersjach php.
 
 ```php
 if (isset(@$GLOBALS['HTTP_RAW_POST_DATA'])) {
@@ -58,7 +58,7 @@ if (isset(@$GLOBALS['HTTP_RAW_POST_DATA'])) {
 $request = json_decode($request);
 ```
 
-Aby uprościć nasz przykładowy kod nie będziemy stosowali obsługi błędów, zakładamy że dane zawsze będą poprawnie sformatowanymi obiektami **JSON-a**, oraz że wszystkie dane o wywołanej procedurze będą się w nim znajdować. Aby wywołać metodę obiektu musimy się posłużyć mechanizmem [refleksji](http://pl.wikipedia.org/wiki/Mechanizm_refleksji). Widząc jaką metodę chcemy wywołać, najpierw powinniśmy sprawdzić czy dana metodą istnieje, można tego dokonać za pomocą poniższego kodu:
+Aby uprościć nasz przykładowy kod nie będziemy stosowali obsługi błędów, zakładamy że dane zawsze będą poprawnie sformatowanymi obiektami **JSON-a**, oraz że wszystkie dane o wywołanej procedurze będą się w nim znajdować. Aby wywołać metodę obiektu musimy się posłużyć mechanizmem [refleksji](https://pl.wikipedia.org/wiki/Mechanizm_refleksji). Widząc jaką metodę chcemy wywołać, najpierw powinniśmy sprawdzić czy dana metodą istnieje, można tego dokonać za pomocą poniższego kodu:
 
 ```php
 $class_name = get_class($service);
@@ -121,12 +121,12 @@ Powyższa implementacja jest najmniejszym działającym przykładem. Aby uruchom
 ```php
 json_rpc($service);
 ```
-Do powyższego kodu moglibyśmy dodać obsługę błędów. Oprócz tych wynikających z błędnego wywołania serwer **JSON-RPC** powinien zwracać błąd gdy dana metoda nie istnieje lub gdy wywołano ją z inną niż wymagana liczbą parametrów. Dodatkowo można zawrzeć wywołanie **`call_user_func_array`** wewnątrz instrukcji **`try..catch`**. W takim przypadku oprócz błędu protokołu można także zwrócić informację o wyjątku jaki został wyrzucony, dzięki czemu będziemy mogli zobaczyć jaki błąd wystąpił po stronie serwera bezpośrednio w kodzie klienta. Część błędów można także przechwycić za pomocą funkcji [**`set_error_handler`**](http://php.net/manual/en/function.set-error-handler.php), która zostanie wywołana w momencie wystąpienia błędu. Przykładowy błąd w protokole **JSON-RPC** powinien wyglądać jak poniżej: 
+Do powyższego kodu moglibyśmy dodać obsługę błędów. Oprócz tych wynikających z błędnego wywołania serwer **JSON-RPC** powinien zwracać błąd gdy dana metoda nie istnieje lub gdy wywołano ją z inną niż wymagana liczbą parametrów. Dodatkowo można zawrzeć wywołanie **`call_user_func_array`** wewnątrz instrukcji **`try..catch`**. W takim przypadku oprócz błędu protokołu można także zwrócić informację o wyjątku jaki został wyrzucony, dzięki czemu będziemy mogli zobaczyć jaki błąd wystąpił po stronie serwera bezpośrednio w kodzie klienta. Część błędów można także przechwycić za pomocą funkcji [**`set_error_handler`**](https://php.net/manual/en/function.set-error-handler.php), która zostanie wywołana w momencie wystąpienia błędu. Przykładowy błąd w protokole **JSON-RPC** powinien wyglądać jak poniżej: 
 
 ```javascript
 {"jsonrpc": "2.0", "result": null, "id": 2, "error": { "code": -32601, "message": "There is no `foo' method" }}
 ```
-Do obiektu **`error`** można dodać drugą właściwość **`error`**, która będzie zawiera informację o błędzie php. Implementację obsługi błędów pozostawiam jako ćwiczenie dla czytelnika. Jeśli będziemy chcieli po stronie klienta utworzyć [automagicznie](http://www.catb.org/jargon/html/A/automagically.html) funkcje, które są dostępne w danej usłudze powinniśmy zwrócić informację o wszystkich dostępnych metodach. W specyfikacji (a właściwie szkicu) 1.1 istniała specjalna metoda **`system.describe`**, która miała właśnie za zadanie zwrócenie informacji o wszystkich procedurach. Mimo że metoda ta nie znalazła się w **specyfikacji 2.0** my utworzymy taką metodę. Poniższa funkcja zwróci nam tablicę, którą musimy zakodować do formatu **JSON** za pomocą funkcji **`json_encode`** w przypadku gdy nazwą zdalnej procedury będzie **`system.describe`**.
+Do obiektu **`error`** można dodać drugą właściwość **`error`**, która będzie zawiera informację o błędzie php. Implementację obsługi błędów pozostawiam jako ćwiczenie dla czytelnika. Jeśli będziemy chcieli po stronie klienta utworzyć [automagicznie](https://www.catb.org/jargon/html/A/automagically.html) funkcje, które są dostępne w danej usłudze powinniśmy zwrócić informację o wszystkich dostępnych metodach. W specyfikacji (a właściwie szkicu) 1.1 istniała specjalna metoda **`system.describe`**, która miała właśnie za zadanie zwrócenie informacji o wszystkich procedurach. Mimo że metoda ta nie znalazła się w **specyfikacji 2.0** my utworzymy taką metodę. Poniższa funkcja zwróci nam tablicę, którą musimy zakodować do formatu **JSON** za pomocą funkcji **`json_encode`** w przypadku gdy nazwą zdalnej procedury będzie **`system.describe`**.
 
 ```php
 function service_description($object) {
@@ -148,7 +148,7 @@ function service_description($object) {
 }
 ```
 
- Aby uzyskać unikalny identyfikator [URN](http://pl.wikipedia.org/wiki/URN), posłużono się funkcją pobierającą aktualny adres url skryptu:
+ Aby uzyskać unikalny identyfikator [URN](https://pl.wikipedia.org/wiki/URN), posłużono się funkcją pobierającą aktualny adres url skryptu:
 
 ```php
 function currentURL() {
@@ -250,6 +250,6 @@ JSON.rpc('server.php').then(function(service) {
 });
 ```
 
-Nasz kod zakłada że obiekt **JSON** jest dostępny, jeśli chcielibyśmy aby nasz kod działał na przeglądarkach, w których jest on niedostępny musielibyśmy użyć biblioteki do obsługi **JSON-a** np. [tej napisanej przez Douglasa Crockforda](http://www.json.org/js.html) twórcy formatu JSON. Teraz pozostaje już tylko pisanie metod w php i wywoływanie ich w JavaScript-cie. Powyższa implementacja protokołu **JSON-RPC** jest niekompletna, jeśli ktoś byłby chętny taką utworzyć odsyłam do [specyfikacji 2.0](http://www.jsonrpc.org/specification). 
+Nasz kod zakłada że obiekt **JSON** jest dostępny, jeśli chcielibyśmy aby nasz kod działał na przeglądarkach, w których jest on niedostępny musielibyśmy użyć biblioteki do obsługi **JSON-a** np. [tej napisanej przez Douglasa Crockforda](https://www.json.org/js.html) twórcy formatu JSON. Teraz pozostaje już tylko pisanie metod w php i wywoływanie ich w JavaScript-cie. Powyższa implementacja protokołu **JSON-RPC** jest niekompletna, jeśli ktoś byłby chętny taką utworzyć odsyłam do [specyfikacji 2.0](https://www.jsonrpc.org/specification). 
 
-Powyższy artykuł jak i kod źródłowy udostępniony są na licencji [Creative Commons Attribution-ShareAlike 4.0](http://creativecommons.org/licenses/by-sa/4.0/). Kod źródłowy artykułu w formacie Markdown dostępny na [githubie](https://github.com/jcubic/jcubic.pl) w katalogu **_draft**. Zdjęcie: [Flickr](https://www.flickr.com/photos/ilikespoons/8395923694) na licencji Creative Commons.
+Powyższy artykuł jak i kod źródłowy udostępniony są na licencji [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Kod źródłowy artykułu w formacie Markdown dostępny na [githubie](https://github.com/jcubic/jcubic.pl) w katalogu **_draft**. Zdjęcie: [Flickr](https://www.flickr.com/photos/ilikespoons/8395923694) na licencji Creative Commons.

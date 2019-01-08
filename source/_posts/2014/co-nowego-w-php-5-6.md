@@ -165,7 +165,7 @@ Jak zawsze ulepszono również szybkość oraz zmniejszono zapotrzebowanie na pa
   * dodano nową funkcję  kryptograficzną oraz nowy algorytm szyfrowania
 
 
-Po szczegółową listę zmian odsyłam pod adres [http://php.net/manual/en/migration56.new-features.php](http://php.net/manual/en/migration56.new-features.php)
+Po szczegółową listę zmian odsyłam pod adres [https://php.net/manual/en/migration56.new-features.php](https://php.net/manual/en/migration56.new-features.php)
 
 
 

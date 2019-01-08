@@ -19,7 +19,7 @@ tags:
 - zbiory danych
 ---
 
-Tak się składa, że **dane** i odpowiedzi jakie chcemy z nich wyciągnąć, to dwie najważniejsze rzeczy, które każdy specjalista od [ML](http://itcraftsman.pl/wstep-do-machine-learning/) (zwany data scientist) musi posiadać, aby móc wykonywać swoją pracę. W tym wpisie przygotowałem krótki przewodnik po najpopularniejszych otwartych i ciekawych zbiorach danych.<!-- more -->
+Tak się składa, że **dane** i odpowiedzi jakie chcemy z nich wyciągnąć, to dwie najważniejsze rzeczy, które każdy specjalista od [ML](https://itcraftsman.pl/wstep-do-machine-learning/) (zwany data scientist) musi posiadać, aby móc wykonywać swoją pracę. W tym wpisie przygotowałem krótki przewodnik po najpopularniejszych otwartych i ciekawych zbiorach danych.<!-- more -->
 
 Na początku zdefiniujemy sobie co oznacza pojęcie "_zbiór danych_":
 
@@ -130,7 +130,7 @@ Zbiór różnych parametrów słuchotek (uchowców) - ślimaków morskich. Ustal
 </table>
 
 
-Link do zbioru: [http://www.cs.toronto.edu/~delve/data/abalone/desc.html](http://www.cs.toronto.edu/~delve/data/abalone/desc.html)
+Link do zbioru: [https://www.cs.toronto.edu/~delve/data/abalone/desc.html](https://www.cs.toronto.edu/~delve/data/abalone/desc.html)
 
 Dostępne atrybuty i przykładowe dane:
 
@@ -194,7 +194,7 @@ Duża kolekcja danych o osobach dorosłych, której celem jest przewidzenie, cz
 </table>
 
 
-Link do zbioru: [http://www.cs.toronto.edu/~delve/data/adult/desc.html](http://www.cs.toronto.edu/~delve/data/adult/desc.html)
+Link do zbioru: [https://www.cs.toronto.edu/~delve/data/adult/desc.html](https://www.cs.toronto.edu/~delve/data/adult/desc.html)
 
 Dostępne atrybuty i przykład danych:
 
@@ -293,7 +293,7 @@ Przykład 14 wybranych atrybutów i ich wartości:
 
 ## MNIST database
 
-Dobrze znany zestaw odręcznie napisanych cyfr (od 0 do 9). Celem jest oczywiście rozpoznanie jaka cyfra znajduje się na obrazku. Zestaw ten jest bardzo popularny i służy do sprawdzania wydajności i skuteczności różnych algorytmów uczących się. Jest wykorzystywany w licznych pracach naukowych i opracowaniach. Możecie również natknąć się na różne jego wariacje (np. [notMNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html)).
+Dobrze znany zestaw odręcznie napisanych cyfr (od 0 do 9). Celem jest oczywiście rozpoznanie jaka cyfra znajduje się na obrazku. Zestaw ten jest bardzo popularny i służy do sprawdzania wydajności i skuteczności różnych algorytmów uczących się. Jest wykorzystywany w licznych pracach naukowych i opracowaniach. Możecie również natknąć się na różne jego wariacje (np. [notMNIST](https://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html)).
 
 
 <table >
@@ -330,7 +330,7 @@ Dobrze znany zestaw odręcznie napisanych cyfr (od 0 do 9). Celem jest oczywiśc
 </table>
 
 
-Link do zbioru: [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
+Link do zbioru: [https://yann.lecun.com/exdb/mnist/](https://yann.lecun.com/exdb/mnist/)
 
 Przykład dla cyfry 6:
 
@@ -376,7 +376,7 @@ Zestaw zdjęć twarzy ludzkich. Został stworzony przez University of Massachus
 </table>
 
 
-Link do zbioru: [http://vis-www.cs.umass.edu/lfw/](http://vis-www.cs.umass.edu/lfw/)
+Link do zbioru: [https://vis-www.cs.umass.edu/lfw/](https://vis-www.cs.umass.edu/lfw/)
 
 Przykład:
 

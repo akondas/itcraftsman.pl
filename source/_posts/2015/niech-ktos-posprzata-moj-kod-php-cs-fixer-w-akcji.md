@@ -21,15 +21,15 @@ tags:
 
 Chcesz aby Twój kod był zgodny z obowiązującymi standardami ? Sprawdźmy w akcji, jak działa narzędzie, które próbuje automatycznie dopasować do nich Twój kod.<!-- more -->
 
-W PHP (na tę chwilę) mamy 5 standardów kodowania: od PSR-0 do PSR-4, choć PSR-0 został teoretycznie zastąpiony PSR-4 (kwestia autoloadingu). Cała lista wszystkich oficjalnych standardów (jak również kilka kolejnych w przygotowaniu) znajduje się na stronie [http://www.php-fig.org/psr/](http://www.php-fig.org/psr/). Zachęcam wszystkich do zapoznania się z nimi (jeżeli jeszcze ich nie znacie).
+W PHP (na tę chwilę) mamy 5 standardów kodowania: od PSR-0 do PSR-4, choć PSR-0 został teoretycznie zastąpiony PSR-4 (kwestia autoloadingu). Cała lista wszystkich oficjalnych standardów (jak również kilka kolejnych w przygotowaniu) znajduje się na stronie [https://www.php-fig.org/psr/](https://www.php-fig.org/psr/). Zachęcam wszystkich do zapoznania się z nimi (jeżeli jeszcze ich nie znacie).
 
-**[PHP Coding Standards Fixer](http://cs.sensiolabs.org/)** to narzędzie autorstwa samego Fabien Potencier, twórcy Symfony. Próbuje ono **automatycznie** posprzątać w twoim kodzie pod kątem standardów PSR-1 oraz PSR-2. W praktyce sprawdza się doskonale, ale zacznijmy od początku.
+**[PHP Coding Standards Fixer](https://cs.sensiolabs.org/)** to narzędzie autorstwa samego Fabien Potencier, twórcy Symfony. Próbuje ono **automatycznie** posprzątać w twoim kodzie pod kątem standardów PSR-1 oraz PSR-2. W praktyce sprawdza się doskonale, ale zacznijmy od początku.
 
 
 ## Instalacja
 
 
-Istniejąc trzy sposoby instalacji: ręczny, poprzez Composer lub za pomocą homebrew. Dwie ostatnie należą do najłatwiejszych. Jeżeli jeszcze nie wiesz co to Composer to przeczytaj mój wcześniejszy wpis: [Composer czyli jak zarządzać zależnościami w PHP](http://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/)
+Istniejąc trzy sposoby instalacji: ręczny, poprzez Composer lub za pomocą homebrew. Dwie ostatnie należą do najłatwiejszych. Jeżeli jeszcze nie wiesz co to Composer to przeczytaj mój wcześniejszy wpis: [Composer czyli jak zarządzać zależnościami w PHP](https://itcraftsman.pl/composer-czyli-jak-zarzadzac-zaleznosciami-w-php/)
 
 **Composer**
 

@@ -15,7 +15,7 @@ tags:
 
 Skupimy się teraz na pracy z zdalnymi repozytoriami, które umożliwiają współpracę z innymi osobami. Omówię jak nimi zarządzać oraz jak wypychać własne zmiany na zdalny serwer i pobierać zmiany dokonane przez innych użytkowników.<!-- more -->
 
-Na tym etapie powinieneś już umieć [zatwierdzać zmiany](http://itcraftsman.pl/kontrola-wersji-z-git-cz-2-instalacja-konfiguracja-i-pierwszy-commit/) oraz wiedzieć w [jakim stanie znajdują się pliki](http://itcraftsman.pl/kontrola-wersji-z-git-cz-3-cykl-zycia-plikow/) twojego repozytorium. Jeżeli nie, to polecam moje wcześniejsze wpisy, a jeżeli  zastanawiasz się jeszcze czy warto zabierać się za GIT'a to polecam mój [pierwszy wpis na temat GIT'a](http://itcraftsman.pl/kontrola-wersji-z-git-cz-1-wstep/) w tym cyklu.
+Na tym etapie powinieneś już umieć [zatwierdzać zmiany](https://itcraftsman.pl/kontrola-wersji-z-git-cz-2-instalacja-konfiguracja-i-pierwszy-commit/) oraz wiedzieć w [jakim stanie znajdują się pliki](https://itcraftsman.pl/kontrola-wersji-z-git-cz-3-cykl-zycia-plikow/) twojego repozytorium. Jeżeli nie, to polecam moje wcześniejsze wpisy, a jeżeli  zastanawiasz się jeszcze czy warto zabierać się za GIT'a to polecam mój [pierwszy wpis na temat GIT'a](https://itcraftsman.pl/kontrola-wersji-z-git-cz-1-wstep/) w tym cyklu.
 
 Na wstępie chciałbym jeszcze dodać, że jeżeli któraś z niżej opisywanych rzeczy jest dla Ciebie niezrozumiała, to proszę o komentarza pod wpisem, z chęcią pomogę w miarę moich możliwości.
 

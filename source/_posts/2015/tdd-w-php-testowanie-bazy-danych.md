@@ -29,16 +29,16 @@ W środowisku programistów panuje przekonanie, że testy jednostkowe nie powinn
 Wpis ten publikowany jest w ramach cyklu "TDD w PHP", którego wpisy można czytać niezależnie, ale najlepsze efekty osiągniesz, jeśli zapoznasz się z nimi po kolei. Na ten moment cykl składa się z następujących wpisów:
 
 <ol>
-  <li><a href="http://itcraftsman.pl/tdd-w-php-wprowadzenie-do-test-driven-development">Wprowadzenie do test-driven development</a>)</li>	
-  <li><a href="http://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku">Testy jednostkowe z PHPUnit – krok po kroku</a></li>
-  <li><a href="http://itcraftsman.pl/tdd-w-php-jak-testowac-modele">Jak testować modele ?</a></li>	
+  <li><a href="https://itcraftsman.pl/tdd-w-php-wprowadzenie-do-test-driven-development">Wprowadzenie do test-driven development</a>)</li>	
+  <li><a href="https://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku">Testy jednostkowe z PHPUnit – krok po kroku</a></li>
+  <li><a href="https://itcraftsman.pl/tdd-w-php-jak-testowac-modele">Jak testować modele ?</a></li>	
   <li><strong>Testowanie bazy danych</strong></li>
 <ol>
 </div>
 
 Są takie przypadki, że nie da się zrezygnować z wysyłania zapytań do bazy. Np. musisz zapewnić działanie z jakimś starym istniejącym już kodem lub po prostu, przetestowanie bazy danych pozwoli spać ci spokojnie. Miej na uwadze jednak, że jeżeli twoje testy, często potrzebują do swojego poprawnego działania bazy danych, to znak, że kod jest źle zaprojektowany.
 
-Na potrzeby tego wpisu posłużę się przykładami z frameworka [Laravel 5](http://laravel.com/), ale każdy inny dobry framework posiada analogiczne odpowiedniki opisanych funkcji/technik.
+Na potrzeby tego wpisu posłużę się przykładami z frameworka [Laravel 5](https://laravel.com/), ale każdy inny dobry framework posiada analogiczne odpowiedniki opisanych funkcji/technik.
 
 ## Środowisko testowe i baza danych
 
@@ -79,7 +79,7 @@ CACHE_DRIVER=file
 SESSION_DRIVER=file
 ```
 
-Jednocześnie [PHPUnit](http://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/) pozwala na utworzenie w głównym pliku konfiguracyjnym (_phpunit.xml_) specjalnej gałęzi, w które możemy takie zmienne wpisać i które nadpiszą domyślne ustawienia:
+Jednocześnie [PHPUnit](https://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/) pozwala na utworzenie w głównym pliku konfiguracyjnym (_phpunit.xml_) specjalnej gałęzi, w które możemy takie zmienne wpisać i które nadpiszą domyślne ustawienia:
 
 ```
 <phpunit>
@@ -109,7 +109,7 @@ Przy okazji, można zobaczyć, że L5 domyślnie w czasie testów, przestawia st
 
 ## Migracje
 
-Kolejnym, bardzo przydatny krokiem, będzie wykorzystanie mechanizmu [migracji](http://itcraftsman.pl/migrowanie-bazy-danych-laravel-migrations/). Pozwoli on zapewnić nam w czasie testów taką samą strukturę tabel jak w środowisku developerskim czy produkcyjnym. Warto zainteresować się tym tematem, nie tylko w zakresie testów, ale również tworzenia aplikacji. Jest to bardzo przydatna technika.
+Kolejnym, bardzo przydatny krokiem, będzie wykorzystanie mechanizmu [migracji](https://itcraftsman.pl/migrowanie-bazy-danych-laravel-migrations/). Pozwoli on zapewnić nam w czasie testów taką samą strukturę tabel jak w środowisku developerskim czy produkcyjnym. Warto zainteresować się tym tematem, nie tylko w zakresie testów, ale również tworzenia aplikacji. Jest to bardzo przydatna technika.
 
 Przykładowo korzystając z migracji w Laravel 5, możemy napisać metodę _setUp_ naszego domyślnego _TestCaseu_, która przypilnuje, czy baza posiada odpowiednią strukturę:
 
@@ -127,7 +127,7 @@ class AppBaseTest extends TestCase
 
 W ten sposób, przy każdym uruchomieniu testów (polecenie _phpunit_), skrypt zadba o to aby baza posiadała wszystko czego nam trzeba. 
 
-Dodatkowo, możemy skorzystać z mechanizmu automatycznego wypełniania danymi bazy danych, zwanego [**Database Seeding**](http://laravel.com/docs/5.0/migrations#database-seeding) (może zrobię o tym osobny wpis). Jako, że klasa _TestCase_ jest częścią Laravela, możemy użyć metody:_ $this->seed();_. Teraz nasza metoda _setUp_ wygląda następująco:
+Dodatkowo, możemy skorzystać z mechanizmu automatycznego wypełniania danymi bazy danych, zwanego [**Database Seeding**](https://laravel.com/docs/5.0/migrations#database-seeding) (może zrobię o tym osobny wpis). Jako, że klasa _TestCase_ jest częścią Laravela, możemy użyć metody:_ $this->seed();_. Teraz nasza metoda _setUp_ wygląda następująco:
 
 ```
 class AppBaseTest extends TestCase

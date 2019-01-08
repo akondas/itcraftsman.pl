@@ -19,13 +19,13 @@ tags:
 
 Krótki manual jak wygenerować raport Code Coverage używając PHPUnita. W tekście znajduje się również link do przykładowego raportu wygenerowanego dla biblioteki [PHP-ML](https://github.com/php-ai/php-ml).<!-- more -->
 
-Do czego może posłużyć taki raport można poczytać w poprzednim wpisie: [Code Coverage w testach jednostkowych](http://itcraftsman.pl/code-coverage-w-testach-jednostkowych/). Tym razem konkretnie co i jak, aby otrzymać raport Code Coverage, plus informacje o dodatkowych adnotacjach jakie można wykorzystać.
+Do czego może posłużyć taki raport można poczytać w poprzednim wpisie: [Code Coverage w testach jednostkowych](https://itcraftsman.pl/code-coverage-w-testach-jednostkowych/). Tym razem konkretnie co i jak, aby otrzymać raport Code Coverage, plus informacje o dodatkowych adnotacjach jakie można wykorzystać.
 
 ## Wymagania
 
 **PHPunit i ... testy !**
 
-O samym PHPUnicie pisałem już w wcześniejszych postach ([TDD w PHP: testy jednostkowe z PHPUnit – krok po kroku](http://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/)). Instalacja i użytkowanie jest naprawdę proste.
+O samym PHPUnicie pisałem już w wcześniejszych postach ([TDD w PHP: testy jednostkowe z PHPUnit – krok po kroku](https://itcraftsman.pl/tdd-w-php-testy-jednostkowe-z-phpunit-krok-po-kroku/)). Instalacja i użytkowanie jest naprawdę proste.
 
 ```
 composer require --dev "phpunit/phpunit=5.0.*"

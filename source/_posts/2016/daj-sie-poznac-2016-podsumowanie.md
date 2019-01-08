@@ -43,60 +43,60 @@ $classifier->predict([3, 2]);
 To tylko prosty przykład wykorzystania. Najlepszym sposobem na pokazanie ilości prac będzie spis treści dokumentacji. W środku są liczne przykłady kodu i wyjaśnienia:
 
   * Classification
-    * [SVC](http://php-ml.readthedocs.io/en/latest/machine-learning/classification/svc/)
-    * [k-Nearest Neighbors](http://php-ml.readthedocs.io/en/latest/machine-learning/classification/k-nearest-neighbors/)
-    * [Naive Bayes](http://php-ml.readthedocs.io/en/latest/machine-learning/classification/naive-bayes/)
+    * [SVC](https://php-ml.readthedocs.io/en/latest/machine-learning/classification/svc/)
+    * [k-Nearest Neighbors](https://php-ml.readthedocs.io/en/latest/machine-learning/classification/k-nearest-neighbors/)
+    * [Naive Bayes](https://php-ml.readthedocs.io/en/latest/machine-learning/classification/naive-bayes/)
   * Regression
-    * [Least Squares](http://php-ml.readthedocs.io/en/latest/machine-learning/regression/least-squares/)
-    * [SVR](http://php-ml.readthedocs.io/en/latest/machine-learning/regression/svr/)
+    * [Least Squares](https://php-ml.readthedocs.io/en/latest/machine-learning/regression/least-squares/)
+    * [SVR](https://php-ml.readthedocs.io/en/latest/machine-learning/regression/svr/)
   * Clustering
-    * [k-Means](http://php-ml.readthedocs.io/en/latest/machine-learning/clustering/k-means/)
-    * [DBSCAN](http://php-ml.readthedocs.io/en/latest/machine-learning/clustering/dbscan/)
+    * [k-Means](https://php-ml.readthedocs.io/en/latest/machine-learning/clustering/k-means/)
+    * [DBSCAN](https://php-ml.readthedocs.io/en/latest/machine-learning/clustering/dbscan/)
   * Metric
-    * [Accuracy](http://php-ml.readthedocs.io/en/latest/machine-learning/metric/accuracy/)
+    * [Accuracy](https://php-ml.readthedocs.io/en/latest/machine-learning/metric/accuracy/)
   * Cross Validation
-    * [Random Split](http://php-ml.readthedocs.io/en/latest/machine-learning/cross-validation/random-split/)
+    * [Random Split](https://php-ml.readthedocs.io/en/latest/machine-learning/cross-validation/random-split/)
   * Preprocessing
-    * [Normalization](http://php-ml.readthedocs.io/en/latest/machine-learning/preprocessing/normalization/)
-    * [Imputation missing values](http://php-ml.readthedocs.io/en/latest/machine-learning/preprocessing/imputation-missing-values/)
+    * [Normalization](https://php-ml.readthedocs.io/en/latest/machine-learning/preprocessing/normalization/)
+    * [Imputation missing values](https://php-ml.readthedocs.io/en/latest/machine-learning/preprocessing/imputation-missing-values/)
   * Feature Extraction
-    * [Token Count Vectorizer](http://php-ml.readthedocs.io/en/latest/machine-learning/feature-extraction/token-count-vectorizer/)
+    * [Token Count Vectorizer](https://php-ml.readthedocs.io/en/latest/machine-learning/feature-extraction/token-count-vectorizer/)
   * Datasets
-    * [CSV](http://php-ml.readthedocs.io/en/latest/machine-learning/datasets/csv-dataset/)
+    * [CSV](https://php-ml.readthedocs.io/en/latest/machine-learning/datasets/csv-dataset/)
     * Ready to use:
-      * [Iris](http://php-ml.readthedocs.io/en/latest/machine-learning/datasets/demo/iris/)
-      * [Wine](http://php-ml.readthedocs.io/en/latest/machine-learning/datasets/demo/wine/)
-      * [Glass](http://php-ml.readthedocs.io/en/latest/machine-learning/datasets/demo/glass/)
+      * [Iris](https://php-ml.readthedocs.io/en/latest/machine-learning/datasets/demo/iris/)
+      * [Wine](https://php-ml.readthedocs.io/en/latest/machine-learning/datasets/demo/wine/)
+      * [Glass](https://php-ml.readthedocs.io/en/latest/machine-learning/datasets/demo/glass/)
   * Math
-    * [Distance](http://php-ml.readthedocs.io/en/latest/math/distance/)
-    * [Matrix](http://php-ml.readthedocs.io/en/latest/math/matrix/)
-    * [Statistic](http://php-ml.readthedocs.io/en/latest/math/statistic/)
+    * [Distance](https://php-ml.readthedocs.io/en/latest/math/distance/)
+    * [Matrix](https://php-ml.readthedocs.io/en/latest/math/matrix/)
+    * [Statistic](https://php-ml.readthedocs.io/en/latest/math/statistic/)
 
 ## Wpisy na blogu
 
 
 W czasie trwania konkursu udało mi się wyprodukować 20 wpisów (podsumowanie będzie 21):
 
-  1. [Daj Się Poznać 2016 – zaczynamy](http://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)
-  2. [Wstęp do machine learning](http://itcraftsman.pl/wstep-do-machine-learning/)
-  3. [Algorytm k-śrendnich – uczenie nienadzorowane](http://itcraftsman.pl/algorytm-k-srednich-uczenie-nienadzorowane/)
-  4. [Ogólnodostępne zbiory danych do Machine Learningu](http://itcraftsman.pl/ogolnodostepne-zbiory-danych-do-machine-learningu/)
-  5. [Wydajność php i machine learning](http://itcraftsman.pl/wydajnosc-php-i-machine-learning/)
-  6. [Postępy w pracy nad php-ml](http://itcraftsman.pl/postepy-w-pracy-nad-php-ml/)
-  7. [Publikacja własnej biblioteki PHP z użyciem GitHub i Composer](http://itcraftsman.pl/publikacja-wlasnej-biblioteki-php-z-uzyciem-github-i-composer/)
-  8. [Red Green Refactor - testy jednostkowe](http://itcraftsman.pl/red-green-refactor-testy-jednostkowe/)
-  9. [Ciągła integracja i Travis CI](http://itcraftsman.pl/ciagla-integracja-i-travis-ci/)
-  10. [php-ml - prac ciąg dalszy](http://itcraftsman.pl/php-ml-prac-ciag-dalszy/)
-  11. [Markdown - tworzenie dokumentacji projektu](http://itcraftsman.pl/markdown-tworzenie-dokumentacji-projektu/)
-  12. [Dokumentacja projektu - pragmatyczne README.md](http://itcraftsman.pl/dokumentacja-projektu-pragmatyczne-readme-md/)
-  13. [Dokumentacja projektu - podejście kompleksowe](http://itcraftsman.pl/dokumentacja-projektu-podejscie-kompleksowe/)
-  14. [Code Coverage w testach jednostkowych](http://itcraftsman.pl/code-coverage-w-testach-jednostkowych/)
-  15. [Generowanie raportu Code Coverage z phpunit](http://itcraftsman.pl/generowanie-raportu-code-coverage-z-phpunit/)
-  16. [Uzupełnianie brakujących wartości - php-ml](http://itcraftsman.pl/uzupelnianie-brakujacych-wartosci-php-ml/)
-  17. [Normalizacja danych - php-ml](http://itcraftsman.pl/normalizacja-danych-php-ml/)
-  18. [Walidacja krzyżowa - randomsplit - php-ml](http://itcraftsman.pl/walidacja-krzyzowa-randomsplit-php-ml/)
-  19. [Ekstrakcja danych - tokenizacja tekstu - php-ml](http://itcraftsman.pl/ekstrakcja-danych-tokenizacja-tekstu-php-ml/)
-  20. [Humbug - testy mutacyjne w PHP](http://itcraftsman.pl/humbug-testy-mutacyjne-w-php/)
+  1. [Daj Się Poznać 2016 – zaczynamy](https://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)
+  2. [Wstęp do machine learning](https://itcraftsman.pl/wstep-do-machine-learning/)
+  3. [Algorytm k-śrendnich – uczenie nienadzorowane](https://itcraftsman.pl/algorytm-k-srednich-uczenie-nienadzorowane/)
+  4. [Ogólnodostępne zbiory danych do Machine Learningu](https://itcraftsman.pl/ogolnodostepne-zbiory-danych-do-machine-learningu/)
+  5. [Wydajność php i machine learning](https://itcraftsman.pl/wydajnosc-php-i-machine-learning/)
+  6. [Postępy w pracy nad php-ml](https://itcraftsman.pl/postepy-w-pracy-nad-php-ml/)
+  7. [Publikacja własnej biblioteki PHP z użyciem GitHub i Composer](https://itcraftsman.pl/publikacja-wlasnej-biblioteki-php-z-uzyciem-github-i-composer/)
+  8. [Red Green Refactor - testy jednostkowe](https://itcraftsman.pl/red-green-refactor-testy-jednostkowe/)
+  9. [Ciągła integracja i Travis CI](https://itcraftsman.pl/ciagla-integracja-i-travis-ci/)
+  10. [php-ml - prac ciąg dalszy](https://itcraftsman.pl/php-ml-prac-ciag-dalszy/)
+  11. [Markdown - tworzenie dokumentacji projektu](https://itcraftsman.pl/markdown-tworzenie-dokumentacji-projektu/)
+  12. [Dokumentacja projektu - pragmatyczne README.md](https://itcraftsman.pl/dokumentacja-projektu-pragmatyczne-readme-md/)
+  13. [Dokumentacja projektu - podejście kompleksowe](https://itcraftsman.pl/dokumentacja-projektu-podejscie-kompleksowe/)
+  14. [Code Coverage w testach jednostkowych](https://itcraftsman.pl/code-coverage-w-testach-jednostkowych/)
+  15. [Generowanie raportu Code Coverage z phpunit](https://itcraftsman.pl/generowanie-raportu-code-coverage-z-phpunit/)
+  16. [Uzupełnianie brakujących wartości - php-ml](https://itcraftsman.pl/uzupelnianie-brakujacych-wartosci-php-ml/)
+  17. [Normalizacja danych - php-ml](https://itcraftsman.pl/normalizacja-danych-php-ml/)
+  18. [Walidacja krzyżowa - randomsplit - php-ml](https://itcraftsman.pl/walidacja-krzyzowa-randomsplit-php-ml/)
+  19. [Ekstrakcja danych - tokenizacja tekstu - php-ml](https://itcraftsman.pl/ekstrakcja-danych-tokenizacja-tekstu-php-ml/)
+  20. [Humbug - testy mutacyjne w PHP](https://itcraftsman.pl/humbug-testy-mutacyjne-w-php/)
   
 
 ## Postscriptum
@@ -106,7 +106,7 @@ Jestem mega zadowolony z tego co udało mi się zrobić i choć na końcu nie ob
 
 Na przyszłość polecam Wam wszystkim takie inicjatywy i udział w nich bo dają dużą porcję wiedzy, motywacji i inspiracji.
 
-Mogę śmiało powiedzieć, że najprzyjemniejszym momentem było wykorzystanie przez **Mariusz Gila** ([@mariuszgil](https://twitter.com/mariuszgil)) fragmentu biblioteki PHP-ML w czasie jego prezentacji pt. "Holistic approach to machine learning", która odbyła się w Bielsku-Białej na [WeBB MeetUp](http://webbmeetup.com/). Dzięki Mariusz !
+Mogę śmiało powiedzieć, że najprzyjemniejszym momentem było wykorzystanie przez **Mariusz Gila** ([@mariuszgil](https://twitter.com/mariuszgil)) fragmentu biblioteki PHP-ML w czasie jego prezentacji pt. "Holistic approach to machine learning", która odbyła się w Bielsku-Białej na [WeBB MeetUp](https://webbmeetup.com/). Dzięki Mariusz !
 
 **P.S. 2**
 

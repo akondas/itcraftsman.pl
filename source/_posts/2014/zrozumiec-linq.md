@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2014-09-23 19:46:43+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/zrozumiec-linq/
+link: https://itcraftsman.pl/zrozumiec-linq/
 slug: zrozumiec-linq
 title: 'C#: Zrozumieć LINQ'
 wordpress_id: 495

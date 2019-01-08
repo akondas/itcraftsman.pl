@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2014-08-08 07:46:12+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/testy-automatyczne-interfejsu-uzytkownika-przy-uzyciu-selenium-ide/
+link: https://itcraftsman.pl/testy-automatyczne-interfejsu-uzytkownika-przy-uzyciu-selenium-ide/
 slug: testy-automatyczne-interfejsu-uzytkownika-przy-uzyciu-selenium-ide
 title: Testy automatyczne interfejsu użytkownika przy użyciu Selenium IDE
 wordpress_id: 136
@@ -21,9 +21,9 @@ tags:
 
 Selenium IDE to potężne narzędzie służące do skutecznego i szybkiego przeprowadzania testów automatycznych naszych aplikacji webowych lub normalnych stron WWW. Tkwi w nim potężny potencjał, który pozwala nam na uzyskanie pewnej niezawodności w wykonywanych i powtarzanych czynnościach (bo przecież dobrze zaprogramowana maszyna nie popełnia błędów) oraz oszczędności czasu, który możemy efektownie spożytkować na inne zadania.
 
-Jest to chyba dotąd najlepsze darmowe narzędzie do wykonywania automatyzacji, dostępne dla każdego. W internecie na oficjalnej stronie wydawcy [http://www.seleniumhq.org/](http://www.seleniumhq.org/), w dziale download możemy znaleźć różnorodne pliki, które możemy za darmo pobrać i wykorzystać w naszej pracy, a które postaram się zaprezentować Wam w kolejnych wpisach.
+Jest to chyba dotąd najlepsze darmowe narzędzie do wykonywania automatyzacji, dostępne dla każdego. W internecie na oficjalnej stronie wydawcy [https://www.seleniumhq.org/](https://www.seleniumhq.org/), w dziale download możemy znaleźć różnorodne pliki, które możemy za darmo pobrać i wykorzystać w naszej pracy, a które postaram się zaprezentować Wam w kolejnych wpisach.
 
-Dzisiaj chciałbym skupić się na tym pierwszym - jest nim Selenium IDE, czyli wtyczka dedykowana do Firefoxa (i niestety tylko dla niego), którą instaluje się do naszej przeglądarki z poziomu plugin managera bądź ręcznie z linka strony producenta [http://release.seleniumhq.org/selenium-ide/2.5.0/selenium-ide-2.5.0.xpi](http://release.seleniumhq.org/selenium-ide/2.5.0/selenium-ide-2.5.0.xpi). Po zainstalowaniu odpowiedniej wtyczki, nasze narzędzie pojawi się w naszej przeglądarce w zakładce narzędzia na samym dole.
+Dzisiaj chciałbym skupić się na tym pierwszym - jest nim Selenium IDE, czyli wtyczka dedykowana do Firefoxa (i niestety tylko dla niego), którą instaluje się do naszej przeglądarki z poziomu plugin managera bądź ręcznie z linka strony producenta [https://release.seleniumhq.org/selenium-ide/2.5.0/selenium-ide-2.5.0.xpi](https://release.seleniumhq.org/selenium-ide/2.5.0/selenium-ide-2.5.0.xpi). Po zainstalowaniu odpowiedniej wtyczki, nasze narzędzie pojawi się w naszej przeglądarce w zakładce narzędzia na samym dole.
 
 [![](/assets/img/posts/2014/selenium1.png)](/assets/img/posts/2014/selenium1.png)
 
@@ -51,7 +51,7 @@ Na dole widzimy licznik testów, które udało nam się utworzyć przy użyciu S
 
 [![4](/assets/img/posts/2014/selenium4.png)](/assets/img/posts/2014/selenium4.png)
 
-Następnie widzimy duże puste pole **Table**. W nim będziemy mogli ręcznie deklarować poszczególne komendy, które mają zostać wykonywane automatycznie przez IDE. Tych komend jest bardzo dużo i opisywanie wszystkich zajęło by mi tutaj mnóstwo czasu, dlatego ciekawych zachęcam do zaglądania do dokumentacji (dostępnej [tutaj](http://docs.seleniumhq.org/docs/02_selenium_ide.jsp#commonly-used-selenium-commands)).
+Następnie widzimy duże puste pole **Table**. W nim będziemy mogli ręcznie deklarować poszczególne komendy, które mają zostać wykonywane automatycznie przez IDE. Tych komend jest bardzo dużo i opisywanie wszystkich zajęło by mi tutaj mnóstwo czasu, dlatego ciekawych zachęcam do zaglądania do dokumentacji (dostępnej [tutaj](https://docs.seleniumhq.org/docs/02_selenium_ide.jsp#commonly-used-selenium-commands)).
 
 [![5](/assets/img/posts/2014/selenium5.png)](/assets/img/posts/2014/selenium5.png)
 
@@ -115,7 +115,7 @@ namespace SeleniumTests { [TestFixture]
 		[SetUp]
 		public void SetupTest() {
 			driver = new FirefoxDriver();
-			baseURL = "http://wikipedia.pl/";
+			baseURL = "https://wikipedia.pl/";
 			verificationErrors = new StringBuilder();
 		}
 

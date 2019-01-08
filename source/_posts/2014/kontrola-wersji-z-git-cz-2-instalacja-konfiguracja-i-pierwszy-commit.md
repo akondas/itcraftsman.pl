@@ -22,7 +22,7 @@ W tym wpisie zainstalujemy a następnie skonfigurujemy Git do poprawnej pracy. U
 
 ** Windows**
 
-Pobieramy instalator z [tej strony](http://git-scm.com/download/win). W czasie instalacji, przy kroku "_Adjusting you PATH environment_", wybieramy opcję "_Use Git from the Windows Prompt_". Pozwoli ona używać komend Git'a z normalnego wiersza poleceń (np. cmd.exe). Po instalacji dostępna będzie także powłoka Git'a: Git Bash.
+Pobieramy instalator z [tej strony](https://git-scm.com/download/win). W czasie instalacji, przy kroku "_Adjusting you PATH environment_", wybieramy opcję "_Use Git from the Windows Prompt_". Pozwoli ona używać komend Git'a z normalnego wiersza poleceń (np. cmd.exe). Po instalacji dostępna będzie także powłoka Git'a: Git Bash.
 
 [![git-windows](/assets/img/posts/2014/git-windows.png)](/assets/img/posts/2014/git-windows.png)
 
@@ -38,7 +38,7 @@ apt-get install git
 
 ** Mac**
 
-Dla komputerów typu Mac możemy skorzystać z graficznego instalatora dostępnego [tutaj](http://sourceforge.net/projects/git-osx-installer/). Inny sposób to instalacja Homebrew (o ile go już nie masz). W tym celu wpisz w terminalu:
+Dla komputerów typu Mac możemy skorzystać z graficznego instalatora dostępnego [tutaj](https://sourceforge.net/projects/git-osx-installer/). Inny sposób to instalacja Homebrew (o ile go już nie masz). W tym celu wpisz w terminalu:
 
 ```
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"

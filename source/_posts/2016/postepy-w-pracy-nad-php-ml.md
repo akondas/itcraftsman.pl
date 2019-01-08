@@ -19,7 +19,7 @@ tags:
 
 Krótkie podsumowanie pierwszych dwóch tygodni prac nad biblioteką do Machine Learningu.<!-- more -->
 
-Pierwszy wpis konkursowy ("[Daj się poznać](http://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)") powstał 19 marca. Od tego czasu minęły już ponad dwa tygodnie. Do wczoraj postęp nad pracami wyglądał w ten sposób:
+Pierwszy wpis konkursowy ("[Daj się poznać](https://itcraftsman.pl/daj-sie-poznac-2016-zaczynamy/)") powstał 19 marca. Od tego czasu minęły już ponad dwa tygodnie. Do wczoraj postęp nad pracami wyglądał w ten sposób:
 
 ![screenshot-github.com 2016-04-05 22-30-55](/assets/img/posts/2016/screenshot-github.com-2016-04-05-22-30-55.png)
 

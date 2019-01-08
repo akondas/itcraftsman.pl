@@ -100,7 +100,7 @@ public function storeUser(Input $input, User $user, $routeParam)
 ## Gotowe uwierzytelnianie
 
 
-Mechanizm logowania, rejestracji użytkowników i resetowania hasła jest teraz gotowy od zaraz (out of the box). W pakiecie dostajemy także podstawowe widoki, działające kontrolery, zarejestrowane routy oraz gotowe [migracje bazy danych](http://itcraftsman.pl/migrowanie-bazy-danych-laravel-migrations/). Całość śmiga od zaraz po skonfigurowaniu bazy danych (w pliku_ .env_ lub _app/config/database.php_) i zastosowaniu migracji (polecenie _php artisan migrate_).
+Mechanizm logowania, rejestracji użytkowników i resetowania hasła jest teraz gotowy od zaraz (out of the box). W pakiecie dostajemy także podstawowe widoki, działające kontrolery, zarejestrowane routy oraz gotowe [migracje bazy danych](https://itcraftsman.pl/migrowanie-bazy-danych-laravel-migrations/). Całość śmiga od zaraz po skonfigurowaniu bazy danych (w pliku_ .env_ lub _app/config/database.php_) i zastosowaniu migracji (polecenie _php artisan migrate_).
 
 [![Laravel 5 - gotowe logowanie](/assets/img/posts/2015/laravel-5-auth.jpeg)](/assets/img/posts/2015/laravel-5-auth.jpeg) Gotowe logowanie w Laravel 5
 
@@ -247,7 +247,7 @@ Elixir to narzędzie autorstwa Jeffrey Way, które służy do automatyzacji pro
 ## Laravel Socialite
 
 
-Laravel Socialite do nowy dodatkowy pakiet (na osobnym [repozytorium](https://github.com/laravel/socialite)), dedykowany dla Laravel 5. Zawiera on zestaw do autoryzacji użytkowników z wykorzystanie protokołu [OAuth](http://oauth.net/). Aktualnie jest wsparcie dla takich dostawców jak: Facebook, Twitter, Google i GitHub. Aby móc korzystać z mocy tej paczki potrzebny jest dodakowy wpis w composer.json
+Laravel Socialite do nowy dodatkowy pakiet (na osobnym [repozytorium](https://github.com/laravel/socialite)), dedykowany dla Laravel 5. Zawiera on zestaw do autoryzacji użytkowników z wykorzystanie protokołu [OAuth](https://oauth.net/). Aktualnie jest wsparcie dla takich dostawców jak: Facebook, Twitter, Google i GitHub. Aby móc korzystać z mocy tej paczki potrzebny jest dodakowy wpis w composer.json
 ```
 "laravel/socialite": "~2.0"
 ```

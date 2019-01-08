@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2018-02-16 16:19:45+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/c-metody-wyswietlania-stringow/
+link: https://itcraftsman.pl/c-metody-wyswietlania-stringow/
 slug: c-metody-wyswietlania-stringow
 title: 'C#: Console.WriteLine() na różne sposoby'
 wordpress_id: 1799

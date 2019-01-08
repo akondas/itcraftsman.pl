@@ -16,7 +16,7 @@ tags:
 - void functions
 ---
 
-Rok temu wydana została oczekiwana przez wszystkich wersja **PHP 7** (czytaj [PHP 7 – nadchodzą nowości !](http://itcraftsman.pl/php-7-nadchodza-nowosci/)). Prawie równocześnie z jej premierą została zapowiedziana lista zmiana na którą musieliśmy czekać prawie rok. Pierwszego grudnia nastąpi oficjalna premiera **PHP 7.1**. Poniżej krótki spis nowości i zmian jakie wchodzą w skład nowej wersji 7.1. <!-- more -->
+Rok temu wydana została oczekiwana przez wszystkich wersja **PHP 7** (czytaj [PHP 7 – nadchodzą nowości !](https://itcraftsman.pl/php-7-nadchodza-nowosci/)). Prawie równocześnie z jej premierą została zapowiedziana lista zmiana na którą musieliśmy czekać prawie rok. Pierwszego grudnia nastąpi oficjalna premiera **PHP 7.1**. Poniżej krótki spis nowości i zmian jakie wchodzą w skład nowej wersji 7.1. <!-- more -->
 
 
 ## Nowe funkcjonalności
@@ -139,7 +139,7 @@ Wsparcie dla kluczy w wyrażeniach _list()_ i nowej notacji niszczącej _[]_. Od
     }
 
 
-Spis wszystkich zmiana i nowych ficzerów znajdziecie pod adresem:  [http://php.net/manual/en/migration71.php](http://php.net/manual/en/migration71.php)
+Spis wszystkich zmiana i nowych ficzerów znajdziecie pod adresem:  [https://php.net/manual/en/migration71.php](https://php.net/manual/en/migration71.php)
 
 
 ## Wydajność 5.6 vs 7.0 vs 7.1
@@ -163,11 +163,11 @@ W sieci pojawiają się już od jakiegoś czasu zapowiedzi zmian w wersji 7.2, o
 
 ## PHP 8.0
 
-Pojawiają się również pierwsze przebłyski na temat nowości w wersji 8, ale jak na razie informacje dotyczą głównie usuwania starych rozszerzeń (_mdcrypt_) lub pozbywanie się niebezpiecznych funkcjonalności (modyfikator _/e_ w funkcji _mb_ereg_replace()_). Trwają również prace nad implementacją JIT ([Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)) w wersji 8: [http://externals.io/thread/268](http://externals.io/thread/268)
+Pojawiają się również pierwsze przebłyski na temat nowości w wersji 8, ale jak na razie informacje dotyczą głównie usuwania starych rozszerzeń (_mdcrypt_) lub pozbywanie się niebezpiecznych funkcjonalności (modyfikator _/e_ w funkcji _mb_ereg_replace()_). Trwają również prace nad implementacją JIT ([Just-in-time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)) w wersji 8: [https://externals.io/thread/268](https://externals.io/thread/268)
 
 Źródła informacji:
 
- * [http://php.net/manual/en/migration71.php](http://php.net/manual/en/migration71.php)
+ * [https://php.net/manual/en/migration71.php](https://php.net/manual/en/migration71.php)
  * [https://wiki.php.net/rfc](https://wiki.php.net/rfc)
  * [https://blog.pascal-martin.fr/post/php71-en-road-towards-72-and-80.html](https://blog.pascal-martin.fr/post/php71-en-road-towards-72-and-80.html)
  * [https://wiki.php.net/rfc/php8](https://wiki.php.net/rfc/php8)

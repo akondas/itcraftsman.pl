@@ -16,7 +16,7 @@ tags:
 
 To jest mój pierwszy wpis w którym opiszę co to jest Composer oraz jak się nim posługiwać. Postaram się opisać wszystko od podstaw. Zapraszam do lektury :)<!-- more -->
 
-[**Composer** ](http://getcomposer.org) to narzędzie pozwalające na bardzo łatwe zarządzanie zależnościami w projekcie. Pozwala on deklarować różne zależności których potrzebuje twój projekt oraz instalować lub aktualizować je automatycznie za ciebie. Zależności te zostały nazwane paczkami (z ang. package). Paczką może być biblioteka, osobny komponent czy nawet cały framework. Analogia do paczki jest bardzo dobra.  Aby taka paczka mogła być przetwarzana przez Composer'a wymagany jest jej opis (etykieta). Opis ten tworzony jest formacie JSON w pliku composer.json.
+[**Composer** ](https://getcomposer.org) to narzędzie pozwalające na bardzo łatwe zarządzanie zależnościami w projekcie. Pozwala on deklarować różne zależności których potrzebuje twój projekt oraz instalować lub aktualizować je automatycznie za ciebie. Zależności te zostały nazwane paczkami (z ang. package). Paczką może być biblioteka, osobny komponent czy nawet cały framework. Analogia do paczki jest bardzo dobra.  Aby taka paczka mogła być przetwarzana przez Composer'a wymagany jest jej opis (etykieta). Opis ten tworzony jest formacie JSON w pliku composer.json.
 
 
 ## Plik konfiguracyjny composer.json
@@ -51,7 +51,7 @@ Zobaczmy teraz jak może wyglądać taki opis. Poniżej znajduje się przykłado
 
 Plik JSON to zbiór danych typu klucz => wartość. Poniżej opisałem znaczenie poszczególnych kluczy:
 
-**name** -  nazwa paczki w formacie autor/nazwa. W większości przypadków parametr ten będzie się pokrywał z formatem nazewnictwa repozytoriów na [Github](http://github.com).
+**name** -  nazwa paczki w formacie autor/nazwa. W większości przypadków parametr ten będzie się pokrywał z formatem nazewnictwa repozytoriów na [Github](https://github.com).
 
 **description** - krótki opis paczki. Zaleca się aby opis był maksymalnie zwięzły i ograniczał się do jednego zdania.
 
@@ -65,7 +65,7 @@ Plik JSON to zbiór danych typu klucz => wartość. Poniżej opisałem znaczenie
 
 **scripts** - jedna z ciekawszych opcji, pozwala ona wpiąć callback do różnych momentów (event) instalacji paczki. Callback'iem może być metoda statyczna naszego skryptu (np. MyClass::postUpdate) lub komenda shell'owa (np. phpunit -c /app). Spis wszystkich eventów do których możemy się wpiąć znajduje się [tutaj](https://getcomposer.org/doc/articles/scripts.md#event-types).
 
-Pełen spis wszystkich możliwy kluczy oraz ich znaczeń znajduje się pod tym [linkiem](http://composer.json.jolicode.com/).
+Pełen spis wszystkich możliwy kluczy oraz ich znaczeń znajduje się pod tym [linkiem](https://composer.json.jolicode.com/).
 
 
 ## Wymagania i instalacja
@@ -78,7 +78,7 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 ```
 
-Pierwsza linia pobiera skrypt Composer'a. Druga pozwoli nam wywoływać Composera w dowolnym miejscu. Instalacja pod Windowsa organiczna się do pobrania zwykłego instalatora. Osobiście instalowałem go pod Ubuntu 14 oraz Windows 8. Jeżeli posiadasz świeżą instalację Ubuntu 14 to możesz napotkać problem z instalacją mcrypt dla PHP. Polecam tą [stronę](http://stackoverflow.com/a/23692816/196491) która pomogła mi rozwiązać ten problem.
+Pierwsza linia pobiera skrypt Composer'a. Druga pozwoli nam wywoływać Composera w dowolnym miejscu. Instalacja pod Windowsa organiczna się do pobrania zwykłego instalatora. Osobiście instalowałem go pod Ubuntu 14 oraz Windows 8. Jeżeli posiadasz świeżą instalację Ubuntu 14 to możesz napotkać problem z instalacją mcrypt dla PHP. Polecam tą [stronę](https://stackoverflow.com/a/23692816/196491) która pomogła mi rozwiązać ten problem.
 
 Po prawidłowej instalacji i wpisaniu composer w konsoli (lub wierszu poleceń) otrzymamy następujący efekt:
 

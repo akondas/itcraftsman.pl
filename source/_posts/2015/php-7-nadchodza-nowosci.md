@@ -242,7 +242,7 @@ object(EngineException)#1 (7) {
 ## **The end ...**
 
 
-Na zakończenie wpisu zachęcam do zabawy z nową wersją, samodzielnej kompilacji i eksperymentów ([przykład](http://www.zimuel.it/install-php-7/) od którego można zacząć). Można w ten sposób dowiedzieć się wiele ciekawych rzeczy o samym silniku PHP, jego możliwościach oraz sposobie działania.
+Na zakończenie wpisu zachęcam do zabawy z nową wersją, samodzielnej kompilacji i eksperymentów ([przykład](https://www.zimuel.it/install-php-7/) od którego można zacząć). Można w ten sposób dowiedzieć się wiele ciekawych rzeczy o samym silniku PHP, jego możliwościach oraz sposobie działania.
 
 Wpis był dość długi, więc jeżeli udało Wam się dobrnąć do końca to dziękuję za uwagę. Przypominam o komentarzach, które pozostają do waszej dyspozycji. Dajcie znać czy podobają Wam się nowości w PHP 7 oraz czy chcielibyście zapoznać jeszcze z parom innymi zmianami ?
 

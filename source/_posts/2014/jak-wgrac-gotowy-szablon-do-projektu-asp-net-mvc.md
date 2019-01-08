@@ -3,7 +3,7 @@ author: Adam Kawik
 comments: true
 date: 2014-09-29 11:00:17+00:00
 extends: _layouts.post
-link: http://itcraftsman.pl/jak-wgrac-gotowy-szablon-do-projektu-asp-net-mvc/
+link: https://itcraftsman.pl/jak-wgrac-gotowy-szablon-do-projektu-asp-net-mvc/
 slug: jak-wgrac-gotowy-szablon-do-projektu-asp-net-mvc
 title: Jak wgrać gotowy szablon do projektu ASP .NET MVC?
 wordpress_id: 589
@@ -28,7 +28,7 @@ Dzisiaj postaram się wyjaśnić jak w prosty sposób pobrać i wgrać sobie inn
 
 **Gdzie mogę pobrać inne szablony dla ASP ?**
 
-Najlepiej poszukać ich sobie tutaj: [http://www.html5webtemplates.co.uk/](http://www.html5webtemplates.co.uk/)
+Najlepiej poszukać ich sobie tutaj: [https://www.html5webtemplates.co.uk/](https://www.html5webtemplates.co.uk/)
 
 Strona ta posiada mnóstwo gotowych szablonów przygotowanych przy użyciu HTMLa 5 i CSS 3. Można je bez problemu wykorzystać za darmo do celów komercyjnych lub nie komercyjnych ponieważ udostępniane są na podstawie licencji CC ( Creative Common )
 
