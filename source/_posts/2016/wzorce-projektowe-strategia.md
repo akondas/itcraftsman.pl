@@ -31,18 +31,9 @@ Inaczej mówiąc, rozwiązujemy ten problem poprzez **programowanie do interfejs
 
 ## Cele wzorca
 
-
-
-
-
- 	
   * Zdefiniowanie rodziny algorytmów, hermetyzacji każdego z nich, i uczynienie ich zamiennych. Strategia pozwala na zmianę algorytmu niezależnie od klientów, którzy go używają.
-
  	
   * Uchwycenie abstrakcji w interfejsie, zakopanie szczegółów implementacji w klasach pochodnych.
-
-
-
 
 ## Struktura
 
@@ -144,52 +135,20 @@ class StrategyTest extends \PHPUnit_Framework_TestCase
 ```
 
 
-
-
-
 ## Kiedy stosować
 
-
-
-
-
- 	
   * gdy istnieje potrzeba rozwiązania danego problemu na parę różnych sposobów
-
- 	
   * gdy system musi być otwarty na rozszerzanie
-
- 	
   * gdy chcesz zwiększyć czytelność swojego kodu
-
- 	
   * gdy chcesz jasno i jawnie wyrazić intencje w kodzie
 
 
-
-
-
 ## Strategia w kilku krokach
-
-
-
-
-
  	
   1. Zidentyfikuj algorytm (lub zachowanie) który klient chciałby obsłużyć w sposób elastyczny (znajdź tzw. "flex point").
-
- 	
   2. Stwórz interfejs z minimalną ilością metod która pokrywa zachowanie tego algorytmu.
-
- 	
   3. Schowaj implementacje (i jej alternatywy) w klasach pochodnych implementując stworzony interfejs.
-
- 	
   4. Powiąż klienta z algorytmem poprzez interfejs.
-
-
-
-
 
 ## Przykład realnego użycia
 
