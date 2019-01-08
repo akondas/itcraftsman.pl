@@ -338,7 +338,7 @@ Jeżeli walidacja przebiegnie pomyślnie to Twój kod będzie dalej normalnie ob
 
 Aby przyspieszyć tworzenie kodu, dodane zostały nowe generatory, wywoływane z linii poleceń: _make:command_, _make:console_, _make:controller_, _make:event_, _make:middleware_, _make:migration_, _make:model_, _make:provider_, _make:request_. W ten sposób można szybko utworzyć proste szkielety gotowych klas.
 
-[![laravel-5-generator](http://itcraftsman.pl/wp-content/uploads/2015/02/laravel-5-generator.png)](http://itcraftsman.pl/wp-content/uploads/2015/02/laravel-5-generator.png)
+[![laravel-5-generator](/assets/img/posts/2015/laravel-5-generator.png)](/assets/img/posts/2015/laravel-5-generator.png)
 
 
 Przykładowo wywołując polecenie: _make:request_ z parametrem _SearchRequest_, otrzymamy gotowy szkielet klasy _Request_:
