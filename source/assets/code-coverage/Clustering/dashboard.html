@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/php-ml/src/Phpml/Clustering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/var/www/php-ml/src/Phpml</a></li>
+        <li><a href="index.html">Clustering</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="KMeans/Cluster.php.html#12">Cluster</a></td><td class="text-right">67%</td></tr>
+       <tr><td><a href="KMeans/Point.php.html#9">Point</a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#12">Space</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="KMeans/Space.php.html#12">Space</a></td><td class="text-right">45</td></tr>
+       <tr><td><a href="KMeans/Cluster.php.html#12">Cluster</a></td><td class="text-right">24</td></tr>
+       <tr><td><a href="KMeans/Point.php.html#9">Point</a></td><td class="text-right">14</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="KMeans/Cluster.php.html#51"><abbr title="Cluster::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KMeans/Cluster.php.html#64"><abbr title="Cluster::attach">attach</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KMeans/Cluster.php.html#80"><abbr title="Cluster::detach">detach</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KMeans/Cluster.php.html#133"><abbr title="Cluster::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KMeans/Point.php.html#93"><abbr title="Point::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KMeans/Point.php.html#120"><abbr title="Point::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#34"><abbr title="Space::toArray">toArray</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#83"><abbr title="Space::getDimension">getDimension</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#49"><abbr title="Space::newPoint">newPoint</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#71"><abbr title="Space::attach">attach</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#22"><abbr title="Space::__construct">__construct</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="KMeans.php.html#31"><abbr title="KMeans::__construct">__construct</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="DBSCAN.php.html#93"><abbr title="DBSCAN::expandCluster">expandCluster</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="KMeans/Cluster.php.html#103"><abbr title="Cluster::updateCentroid">updateCentroid</abbr></a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#91"><abbr title="Space::getBoundaries">getBoundaries</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="KMeans/Space.php.html#91"><abbr title="Space::getBoundaries">getBoundaries</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="KMeans/Cluster.php.html#64"><abbr title="Cluster::attach">attach</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#34"><abbr title="Space::toArray">toArray</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="KMeans/Cluster.php.html#103"><abbr title="Cluster::updateCentroid">updateCentroid</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="DBSCAN.php.html#93"><abbr title="DBSCAN::expandCluster">expandCluster</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#49"><abbr title="Space::newPoint">newPoint</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#71"><abbr title="Space::attach">attach</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="KMeans/Space.php.html#22"><abbr title="Space::__construct">__construct</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="KMeans.php.html#31"><abbr title="KMeans::__construct">__construct</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 3.3.1</a> using <a href="https://secure.php.net/" target="_top">PHP 7.0.6-6+donate.sury.org~wily+1</a> and <a href="https://phpunit.de/">PHPUnit 5.3.2</a> at Sat May 14 17:25:14 UTC 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/holder.min.js" type="text/javascript"></script>
+  <script src="../js/d3.min.js" type="text/javascript"></script>
+  <script src="../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,0,0,0,0,1,0,2,2,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,0,0,0,0,2,1,4,0,23], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[96.666666666667,13,"<a href=\"DBSCAN.php.html#10\">DBSCAN<\/a>"],[91.666666666667,5,"<a href=\"KMeans.php.html#10\">KMeans<\/a>"],[67.741935483871,16,"<a href=\"KMeans\/Cluster.php.html#12\">Cluster<\/a>"],[88.461538461538,14,"<a href=\"KMeans\/Point.php.html#9\">Point<\/a>"],[88.888888888889,43,"<a href=\"KMeans\/Space.php.html#12\">Space<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,2,"<a href=\"DBSCAN.php.html#32\">DBSCAN::__construct<\/a>"],[100,4,"<a href=\"DBSCAN.php.html#48\">DBSCAN::cluster<\/a>"],[100,3,"<a href=\"DBSCAN.php.html#74\">DBSCAN::getSamplesInRegion<\/a>"],[88.888888888889,4,"<a href=\"DBSCAN.php.html#93\">DBSCAN::expandCluster<\/a>"],[80,2,"<a href=\"KMeans.php.html#31\">KMeans::__construct<\/a>"],[100,3,"<a href=\"KMeans.php.html#46\">KMeans::cluster<\/a>"],[100,1,"<a href=\"KMeans\/Cluster.php.html#28\">Cluster::__construct<\/a>"],[100,2,"<a href=\"KMeans\/Cluster.php.html#38\">Cluster::getPoints<\/a>"],[0,1,"<a href=\"KMeans\/Cluster.php.html#51\">Cluster::toArray<\/a>"],[0,2,"<a href=\"KMeans\/Cluster.php.html#64\">Cluster::attach<\/a>"],[0,1,"<a href=\"KMeans\/Cluster.php.html#80\">Cluster::detach<\/a>"],[100,1,"<a href=\"KMeans\/Cluster.php.html#90\">Cluster::attachAll<\/a>"],[100,1,"<a href=\"KMeans\/Cluster.php.html#98\">Cluster::detachAll<\/a>"],[88.888888888889,5,"<a href=\"KMeans\/Cluster.php.html#103\">Cluster::updateCentroid<\/a>"],[100,1,"<a href=\"KMeans\/Cluster.php.html#125\">Cluster::getIterator<\/a>"],[0,1,"<a href=\"KMeans\/Cluster.php.html#133\">Cluster::count<\/a>"],[100,1,"<a href=\"KMeans\/Point.php.html#24\">Point::__construct<\/a>"],[100,1,"<a href=\"KMeans\/Point.php.html#33\">Point::toArray<\/a>"],[100,3,"<a href=\"KMeans\/Point.php.html#44\">Point::getDistanceWith<\/a>"],[100,4,"<a href=\"KMeans\/Point.php.html#60\">Point::getClosest<\/a>"],[100,1,"<a href=\"KMeans\/Point.php.html#83\">Point::getCoordinates<\/a>"],[0,1,"<a href=\"KMeans\/Point.php.html#93\">Point::offsetExists<\/a>"],[100,1,"<a href=\"KMeans\/Point.php.html#103\">Point::offsetGet<\/a>"],[100,1,"<a href=\"KMeans\/Point.php.html#112\">Point::offsetSet<\/a>"],[0,1,"<a href=\"KMeans\/Point.php.html#120\">Point::offsetUnset<\/a>"],[75,2,"<a href=\"KMeans\/Space.php.html#22\">Space::__construct<\/a>"],[0,2,"<a href=\"KMeans\/Space.php.html#34\">Space::toArray<\/a>"],[66.666666666667,2,"<a href=\"KMeans\/Space.php.html#49\">Space::newPoint<\/a>"],[100,1,"<a href=\"KMeans\/Space.php.html#62\">Space::addPoint<\/a>"],[66.666666666667,2,"<a href=\"KMeans\/Space.php.html#71\">Space::attach<\/a>"],[0,1,"<a href=\"KMeans\/Space.php.html#83\">Space::getDimension<\/a>"],[88.888888888889,8,"<a href=\"KMeans\/Space.php.html#91\">Space::getBoundaries<\/a>"],[100,2,"<a href=\"KMeans\/Space.php.html#116\">Space::getRandomPoint<\/a>"],[100,2,"<a href=\"KMeans\/Space.php.html#133\">Space::cluster<\/a>"],[100,3,"<a href=\"KMeans\/Space.php.html#149\">Space::initializeClusters<\/a>"],[100,9,"<a href=\"KMeans\/Space.php.html#170\">Space::iterate<\/a>"],[100,2,"<a href=\"KMeans\/Space.php.html#213\">Space::initializeRandomClusters<\/a>"],[100,7,"<a href=\"KMeans\/Space.php.html#230\">Space::initializeKMPPClusters<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

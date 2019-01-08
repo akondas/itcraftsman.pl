@@ -85,7 +85,7 @@ bin/phpunit --coverage-html coverage-dir
 
 W tym przypadku _coverage-dir_ to katalogu docelowy, do którego wygenerowany zostanie raport Code Coverage. Po pomyślnym wygenerowaniu raportu, powinien znajdować się tam plik _index.html_.
 
-Przykłady raport Code Coverage wygenerowany za pomocą PHPUnit: [http://itcraftsman.pl/media/code-coverage/](http://itcraftsman.pl/media/code-coverage/)
+Przykłady raport Code Coverage wygenerowany za pomocą PHPUnit: [https://itcraftsman.pl/assets/code-coverage/](/assets/code-coverage/)
 
 Za pomocą raportu CC możemy przeprowadzić analizę i sprawdzić miejsca, które nie są pokryte testami. Dla przykładu na poniższym zrzucie linie oznaczone na czerwono:
 
