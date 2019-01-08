@@ -8,18 +8,18 @@
 @endpush
 
 @section('body')
-    @if ($page->cover_image)
-        <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
-    @endif
+    {{--@if ($page->cover_image)--}}
+        {{--<img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">--}}
+    {{--@endif--}}
 
     <h1 class="leading-none mb-2">{{ $page->title }}</h1>
 
-    <p class="text-grey-darker text-xl md:mt-0">{{ $page->author }}  •  {{ strftime('%d %B %Y', $page->date) }}</p>
+    <p class="text-grey-darker text-xl md:mt-0">{{ $page->author }}  •  {{ $page->getDate() }}</p>
 
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)
             <a
-                href="{{ '/category/' . $category }}"
+                href="{{ '/category/' . $page->getSlug($category) }}"
                 title="View posts in {{ $category }}"
                 class="inline-block bg-grey-light hover:bg-blue-lighter leading-loose tracking-wide text-grey-darkest uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
             >{{ $category }}</a>

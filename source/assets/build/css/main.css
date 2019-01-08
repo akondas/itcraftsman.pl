@@ -1,4 +1,4 @@
-/* a11y-light theme */
+/* a11y-dark theme */
 
 /* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
 
@@ -8,7 +8,7 @@
 
 .hljs-comment,
 .hljs-quote {
-  color: #696969;
+  color: #d4d0ab;
 }
 
 /* Red */
@@ -21,7 +21,7 @@
 .hljs-selector-class,
 .hljs-regexp,
 .hljs-deletion {
-  color: #d91e18;
+  color: #ffa07a;
 }
 
 /* Orange */
@@ -34,13 +34,13 @@
 .hljs-params,
 .hljs-meta,
 .hljs-link {
-  color: #aa5d00;
+  color: #f5ab35;
 }
 
 /* Yellow */
 
 .hljs-attribute {
-  color: #aa5d00;
+  color: #ffd700;
 }
 
 /* Green */
@@ -49,28 +49,28 @@
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition {
-  color: #008000;
+  color: #abe338;
 }
 
 /* Blue */
 
 .hljs-title,
 .hljs-section {
-  color: #007faa;
+  color: #00e0e0;
 }
 
 /* Purple */
 
 .hljs-keyword,
 .hljs-selector-tag {
-  color: #7928a1;
+  color: #dcc6e0;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #fefefe;
-  color: #545454;
+  background: #2b2b2b;
+  color: #f8f8f2;
   padding: .5em;
 }
 
@@ -664,28 +664,6 @@ blockquote {
   font-size: 1.125rem;
 }
 
-code {
-  background-color: #e2e8ee;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: .25rem;
-  font-size: .925rem;
-}
-
-code.hljs {
-  background-color: transparent;
-  padding: 0;
-}
-
-code.hljs .hljs-comment,
-code.hljs .hljs-keyword,
-code.hljs .hljs-meta {
-  font-weight: 400;
-  font-style: normal;
-}
-
 h1,
 h2,
 h3,
@@ -770,21 +748,24 @@ p {
 }
 
 pre {
-  background-color: #ecf0f3;
   line-height: 1.75;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   overflow-x: auto;
-  padding: 1rem;
+  padding: 0;
   border-radius: .25rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   font-size: 1rem;
 }
 
-pre code {
-  background-color: transparent;
-  display: block;
-  padding: 0;
+pre code.hljs {
+  padding: 1rem;
+}
+
+code {
+  padding: 1rem;
+  border-radius: .25rem;
+  font-size: .925rem;
 }
 
 .nav-menu {

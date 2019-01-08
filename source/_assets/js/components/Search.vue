@@ -4,7 +4,7 @@
             class="absolute md:relative w-full justify-end bg-white pin-l pin-t z-10 mt-7 md:mt-0 px-4 md:px-0"
             :class="{'hidden md:flex': ! searching}"
         >
-            <label for="search" class="hidden">Search</label>
+            <label for="search" class="hidden">Szukaj</label>
 
             <input
                 id="search"
@@ -14,7 +14,7 @@
                 :class="{ 'transition-border': query }"
                 autocomplete="off"
                 name="search"
-                placeholder="Search"
+                placeholder="Szukaj"
                 type="text"
                 @keyup.esc="reset"
                 @blur="reset"
@@ -55,7 +55,7 @@
         </div>
 
         <button
-            title="Start searching"
+            title="Rozpocznij wyszukiwanie"
             type="button"
             class="flex md:hidden bg-grey-lightest hover:bg-blue-lightest justify-center items-center border border-grey rounded-full focus:outline-none h-10 px-3"
             @click.prevent="showInput"
@@ -95,7 +95,7 @@ export default {
         axios('/index.json').then(response => {
             this.fuse = new fuse(response.data, {
                 minMatchCharLength: 6,
-                keys: ['title', 'snippet', 'categories'],
+                keys: ['title', 'snippet', 'categories', 'tags'],
             });
         });
     },

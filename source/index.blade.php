@@ -8,23 +8,32 @@
 @endpush
 
 @section('body')
-    @foreach ($posts->where('featured', true) as $featuredPost)
-        <div class="w-full mb-6">
-            <p class="text-grey-darker font-medium my-2">
-                {{ $featuredPost->getDate()->format('F j, Y') }}
-            </p>
+    @foreach ($posts->where('featured', true)->chunk(2) as $row)
+        <div class="flex flex-col md:flex-row md:-mx-6">
+            @foreach ($row as $featuredPost)
+                <div class="w-full md:w-1/2 md:mx-6">
 
-            <h2 class="text-3xl mt-0">
-                <a href="{{ $featuredPost->getUrl() }}" title="Read {{ $featuredPost->title }}" class="text-black font-extrabold">
-                    {{ $featuredPost->title }}
-                </a>
-            </h2>
+                    @if ($featuredPost->cover_image)
+                        <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="mb-6">
+                    @endif
 
-            <p class="mt-0 mb-4">{!! $featuredPost->excerpt() !!}</p>
+                    <p class="text-grey-darker font-medium my-2">
+                        {{ $featuredPost->getDate() }}
+                    </p>
 
-            <a href="{{ $featuredPost->getUrl() }}" title="Read - {{ $featuredPost->title }}"class="uppercase tracking-wide mb-4">
-                Read
-            </a>
+                    <h2 class="text-3xl mt-0">
+                        <a href="{{ $featuredPost->getUrl() }}" title="Read {{ $featuredPost->title }}" class="text-black font-extrabold">
+                            {{ $featuredPost->title }}
+                        </a>
+                    </h2>
+
+                    <p class="mt-0 mb-4">{!! $featuredPost->excerpt() !!}</p>
+
+                    <a href="{{ $featuredPost->getUrl() }}" title="Czytaj - {{ $featuredPost->title }}"class="uppercase tracking-wide mb-4">
+                        Czytaj
+                    </a>
+                </div>
+            @endforeach
         </div>
 
         @if (! $loop->last)
@@ -51,4 +60,9 @@
             <hr class="w-full border-b mt-2 mb-6">
         @endif
     @endforeach
+
+    <div class="flex justify-center lg:-mx-12 p-6 md:px-12 bg-grey-lighter border border-grey-light text-sm md:rounded shadow">
+        <a href="\blog">Wszystkie wpisy</a>
+    </div>
+
 @stop
