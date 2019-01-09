@@ -50,7 +50,7 @@
 
     <div class="comments mt-10">
         <div id="disqus_thread"></div>
-        <script>
+        <script type="application/javascript">
             var disqus_config = function () {
                 this.page.url = "https://itcraftsman.pl{{ $page->getUrl() }}";
                 this.page.identifier = "{{ $page->getUrl() }}";
