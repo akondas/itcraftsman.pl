@@ -49,6 +49,8 @@
     </nav>
 
     <div class="comments mt-10">
+        <h3>Komentarze</h3>
+
         <div id="disqus_thread"></div>
         <script type="application/javascript">
             var disqus_config = function () {

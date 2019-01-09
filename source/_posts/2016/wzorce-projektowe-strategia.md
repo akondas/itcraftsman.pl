@@ -8,7 +8,7 @@ title: 'Wzorce projektowe: Strategia'
 wordpress_id: 1501
 cover_image: /assets/img/posts/2016/chess-1403622_1280.jpg
 categories:
-- Wzorce projektowe
+- Wzorce
 tags:
 - interfejs
 - open/closed principle
