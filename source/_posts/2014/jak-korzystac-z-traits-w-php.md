@@ -3,7 +3,7 @@
 comments: true
 date: 2014-08-12 21:22:08+00:00
 extends: _layouts.post
-cover_image: /assets/img/posts/2014/traits.png
+cover_image: /assets/img/posts/2014/traits.jpg
 slug: jak-korzystac-z-traits-w-php
 title: Jak korzystać z traits w PHP
 wordpress_id: 246

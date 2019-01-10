@@ -82,7 +82,7 @@ Pierwsza linia pobiera skrypt Composer'a. Druga pozwoli nam wywoływać Composer
 
 Po prawidłowej instalacji i wpisaniu composer w konsoli (lub wierszu poleceń) otrzymamy następujący efekt:
 
-[![Zrzut ekranu z 2014-06-25 23:34:51](/assets/img/posts/2014/Zrzut-ekranu-z-2014-06-25-233451-e1403774817760.png)](/assets/img/posts/2014/Zrzut-ekranu-z-2014-06-25-233451-e1403774817760.png)
+[![Zrzut ekranu z 2014-06-25 23:34:51](/assets/img/posts/2014/composer.jpg)](/assets/img/posts/2014/composer.jpg)
 
 
 ## Obsługa - wybrane polecenia
