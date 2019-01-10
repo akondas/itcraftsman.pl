@@ -55,7 +55,7 @@ return [
             : $cleaned;
     },
     'isActive' => function ($page, $path) {
-        return ends_with(trimPath($page->getPath()), trimPath($path));
+        return !starts_with('_', $path);
     },
     'getSlug' => function($page, $title) {
         return (new \Cocur\Slugify\Slugify())->slugify($title);
